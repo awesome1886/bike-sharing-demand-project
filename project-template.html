@@ -7655,17 +7655,14 @@ a.anchor-link {
 <pre>Requirement already satisfied: pip in /opt/conda/lib/python3.12/site-packages (25.3)
 Requirement already satisfied: setuptools in /opt/conda/lib/python3.12/site-packages (80.9.0)
 Requirement already satisfied: wheel in /opt/conda/lib/python3.12/site-packages (0.45.1)
-Collecting mxnet&lt;2.0.0
-  Using cached mxnet-1.9.1-py3-none-manylinux2014_x86_64.whl.metadata (3.4 kB)
-Collecting bokeh
-  Downloading bokeh-3.8.1-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: mxnet&lt;2.0.0 in /opt/conda/lib/python3.12/site-packages (1.9.1)
+Requirement already satisfied: bokeh in /opt/conda/lib/python3.12/site-packages (3.8.1)
 Requirement already satisfied: numpy&lt;2.0.0,&gt;1.16.0 in /opt/conda/lib/python3.12/site-packages (from mxnet&lt;2.0.0) (1.26.4)
 Requirement already satisfied: requests&lt;3,&gt;=2.20.0 in /opt/conda/lib/python3.12/site-packages (from mxnet&lt;2.0.0) (2.32.5)
-Collecting graphviz&lt;0.9.0,&gt;=0.8.1 (from mxnet&lt;2.0.0)
-  Downloading graphviz-0.8.4-py2.py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: graphviz&lt;0.9.0,&gt;=0.8.1 in /opt/conda/lib/python3.12/site-packages (from mxnet&lt;2.0.0) (0.8.4)
 Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /opt/conda/lib/python3.12/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (3.4.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /opt/conda/lib/python3.12/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (3.11)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /opt/conda/lib/python3.12/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (1.26.20)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /opt/conda/lib/python3.12/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (2.6.2)
 Requirement already satisfied: certifi&gt;=2017.4.17 in /opt/conda/lib/python3.12/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (2025.10.5)
 Requirement already satisfied: Jinja2&gt;=2.9 in /opt/conda/lib/python3.12/site-packages (from bokeh) (3.1.6)
 Requirement already satisfied: contourpy&gt;=1.2 in /opt/conda/lib/python3.12/site-packages (from bokeh) (1.3.3)
@@ -7675,26 +7672,12 @@ Requirement already satisfied: pandas&gt;=1.2 in /opt/conda/lib/python3.12/site-
 Requirement already satisfied: pillow&gt;=7.1.0 in /opt/conda/lib/python3.12/site-packages (from bokeh) (11.3.0)
 Requirement already satisfied: PyYAML&gt;=3.10 in /opt/conda/lib/python3.12/site-packages (from bokeh) (6.0.3)
 Requirement already satisfied: tornado&gt;=6.2 in /opt/conda/lib/python3.12/site-packages (from bokeh) (6.5.2)
-Collecting xyzservices&gt;=2021.09.1 (from bokeh)
-  Downloading xyzservices-2025.11.0-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: xyzservices&gt;=2021.09.1 in /opt/conda/lib/python3.12/site-packages (from bokeh) (2025.11.0)
 Requirement already satisfied: MarkupSafe&gt;=2.0 in /opt/conda/lib/python3.12/site-packages (from Jinja2&gt;=2.9-&gt;bokeh) (3.0.3)
 Requirement already satisfied: python-dateutil&gt;=2.8.2 in /opt/conda/lib/python3.12/site-packages (from pandas&gt;=1.2-&gt;bokeh) (2.9.0.post0)
 Requirement already satisfied: pytz&gt;=2020.1 in /opt/conda/lib/python3.12/site-packages (from pandas&gt;=1.2-&gt;bokeh) (2024.2)
 Requirement already satisfied: tzdata&gt;=2022.7 in /opt/conda/lib/python3.12/site-packages (from pandas&gt;=1.2-&gt;bokeh) (2025.2)
 Requirement already satisfied: six&gt;=1.5 in /opt/conda/lib/python3.12/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas&gt;=1.2-&gt;bokeh) (1.17.0)
-Downloading mxnet-1.9.1-py3-none-manylinux2014_x86_64.whl (49.1 MB)
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.1/49.1 MB</span> <span class="ansi-red-fg">165.4 MB/s</span>  <span class="ansi-yellow-fg">0:00:00</span>m0:00:01
-Downloading graphviz-0.8.4-py2.py3-none-any.whl (16 kB)
-Downloading bokeh-3.8.1-py3-none-any.whl (7.2 MB)
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7.2/7.2 MB</span> <span class="ansi-red-fg">226.0 MB/s</span>  <span class="ansi-yellow-fg">0:00:00</span>
-Downloading xyzservices-2025.11.0-py3-none-any.whl (93 kB)
-Installing collected packages: xyzservices, graphviz, mxnet, bokeh
-  Attempting uninstall: graphviz
-    Found existing installation: graphviz 0.21
-    Uninstalling graphviz-0.21:
-      Successfully uninstalled graphviz-0.21
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4/4</span> [bokeh]32m3/4 [bokeh]
-Successfully installed bokeh-3.8.1 graphviz-0.8.4 mxnet-1.9.1 xyzservices-2025.11.0
 Requirement already satisfied: autogluon in /opt/conda/lib/python3.12/site-packages (1.4.0)
 Requirement already satisfied: autogluon.core==1.4.0 in /opt/conda/lib/python3.12/site-packages (from autogluon.core[all]==1.4.0-&gt;autogluon) (1.4.0)
 Requirement already satisfied: autogluon.features==1.4.0 in /opt/conda/lib/python3.12/site-packages (from autogluon) (1.4.0)
@@ -7764,7 +7747,7 @@ Requirement already satisfied: botocore&lt;1.38.0,&gt;=1.37.3 in /opt/conda/lib/
 Requirement already satisfied: jmespath&lt;2.0.0,&gt;=0.7.1 in /opt/conda/lib/python3.12/site-packages (from boto3&lt;2,&gt;=1.10-&gt;autogluon.core==1.4.0-&gt;autogluon.core[all]==1.4.0-&gt;autogluon) (1.0.1)
 Requirement already satisfied: s3transfer&lt;0.12.0,&gt;=0.11.0 in /opt/conda/lib/python3.12/site-packages (from boto3&lt;2,&gt;=1.10-&gt;autogluon.core==1.4.0-&gt;autogluon.core[all]==1.4.0-&gt;autogluon) (0.11.3)
 Requirement already satisfied: python-dateutil&lt;3.0.0,&gt;=2.1 in /opt/conda/lib/python3.12/site-packages (from botocore&lt;1.38.0,&gt;=1.37.3-&gt;boto3&lt;2,&gt;=1.10-&gt;autogluon.core==1.4.0-&gt;autogluon.core[all]==1.4.0-&gt;autogluon) (2.9.0.post0)
-Requirement already satisfied: urllib3!=2.2.0,&lt;3,&gt;=1.25.4 in /opt/conda/lib/python3.12/site-packages (from botocore&lt;1.38.0,&gt;=1.37.3-&gt;boto3&lt;2,&gt;=1.10-&gt;autogluon.core==1.4.0-&gt;autogluon.core[all]==1.4.0-&gt;autogluon) (1.26.20)
+Requirement already satisfied: urllib3!=2.2.0,&lt;3,&gt;=1.25.4 in /opt/conda/lib/python3.12/site-packages (from botocore&lt;1.38.0,&gt;=1.37.3-&gt;boto3&lt;2,&gt;=1.10-&gt;autogluon.core==1.4.0-&gt;autogluon.core[all]==1.4.0-&gt;autogluon) (2.6.2)
 Requirement already satisfied: graphviz in /opt/conda/lib/python3.12/site-packages (from catboost&lt;1.3,&gt;=1.2-&gt;autogluon.tabular[all]==1.4.0-&gt;autogluon) (0.8.4)
 Requirement already satisfied: plotly in /opt/conda/lib/python3.12/site-packages (from catboost&lt;1.3,&gt;=1.2-&gt;autogluon.tabular[all]==1.4.0-&gt;autogluon) (6.0.1)
 Requirement already satisfied: six in /opt/conda/lib/python3.12/site-packages (from catboost&lt;1.3,&gt;=1.2-&gt;autogluon.tabular[all]==1.4.0-&gt;autogluon) (1.17.0)
@@ -7993,14 +7976,11 @@ Requirement already satisfied: PySocks!=1.5.7,&gt;=1.5.6 in /opt/conda/lib/pytho
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Collecting kaggle
-  Downloading kaggle-1.8.3-py3-none-any.whl.metadata (16 kB)
+<pre>Requirement already satisfied: kaggle in /opt/conda/lib/python3.12/site-packages (1.8.3)
 Requirement already satisfied: black&gt;=24.10.0 in /opt/conda/lib/python3.12/site-packages (from kaggle) (25.1.0)
 Requirement already satisfied: bleach in /opt/conda/lib/python3.12/site-packages (from kaggle) (6.2.0)
-Collecting kagglesdk&lt;1.0,&gt;=0.1.14 (from kaggle)
-  Downloading kagglesdk-0.1.14-py3-none-any.whl.metadata (13 kB)
-Collecting mypy&gt;=1.15.0 (from kaggle)
-  Downloading mypy-1.19.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.2 kB)
+Requirement already satisfied: kagglesdk&lt;1.0,&gt;=0.1.14 in /opt/conda/lib/python3.12/site-packages (from kaggle) (0.1.14)
+Requirement already satisfied: mypy&gt;=1.15.0 in /opt/conda/lib/python3.12/site-packages (from kaggle) (1.19.1)
 Requirement already satisfied: packaging in /opt/conda/lib/python3.12/site-packages (from kaggle) (24.2)
 Requirement already satisfied: protobuf in /opt/conda/lib/python3.12/site-packages (from kaggle) (5.28.3)
 Requirement already satisfied: python-dateutil in /opt/conda/lib/python3.12/site-packages (from kaggle) (2.9.0.post0)
@@ -8008,43 +7988,20 @@ Requirement already satisfied: python-slugify in /opt/conda/lib/python3.12/site-
 Requirement already satisfied: requests in /opt/conda/lib/python3.12/site-packages (from kaggle) (2.32.5)
 Requirement already satisfied: six&gt;=1.10 in /opt/conda/lib/python3.12/site-packages (from kaggle) (1.17.0)
 Requirement already satisfied: tqdm in /opt/conda/lib/python3.12/site-packages (from kaggle) (4.67.1)
-Collecting types-requests (from kaggle)
-  Downloading types_requests-2.32.4.20250913-py3-none-any.whl.metadata (2.0 kB)
-Collecting types-tqdm (from kaggle)
-  Downloading types_tqdm-4.67.0.20250809-py3-none-any.whl.metadata (1.7 kB)
-Requirement already satisfied: urllib3&gt;=1.15.1 in /opt/conda/lib/python3.12/site-packages (from kaggle) (1.26.20)
+Requirement already satisfied: types-requests in /opt/conda/lib/python3.12/site-packages (from kaggle) (2.32.4.20250913)
+Requirement already satisfied: types-tqdm in /opt/conda/lib/python3.12/site-packages (from kaggle) (4.67.0.20250809)
+Requirement already satisfied: urllib3&gt;=1.15.1 in /opt/conda/lib/python3.12/site-packages (from kaggle) (2.6.2)
 Requirement already satisfied: click&gt;=8.0.0 in /opt/conda/lib/python3.12/site-packages (from black&gt;=24.10.0-&gt;kaggle) (8.3.0)
 Requirement already satisfied: mypy-extensions&gt;=0.4.3 in /opt/conda/lib/python3.12/site-packages (from black&gt;=24.10.0-&gt;kaggle) (1.1.0)
 Requirement already satisfied: pathspec&gt;=0.9.0 in /opt/conda/lib/python3.12/site-packages (from black&gt;=24.10.0-&gt;kaggle) (0.12.1)
 Requirement already satisfied: platformdirs&gt;=2 in /opt/conda/lib/python3.12/site-packages (from black&gt;=24.10.0-&gt;kaggle) (4.5.0)
 Requirement already satisfied: typing_extensions&gt;=4.6.0 in /opt/conda/lib/python3.12/site-packages (from mypy&gt;=1.15.0-&gt;kaggle) (4.15.0)
-Collecting librt&gt;=0.6.2 (from mypy&gt;=1.15.0-&gt;kaggle)
-  Downloading librt-0.7.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (1.3 kB)
+Requirement already satisfied: librt&gt;=0.6.2 in /opt/conda/lib/python3.12/site-packages (from mypy&gt;=1.15.0-&gt;kaggle) (0.7.5)
 Requirement already satisfied: webencodings in /opt/conda/lib/python3.12/site-packages (from bleach-&gt;kaggle) (0.5.1)
 Requirement already satisfied: text-unidecode&gt;=1.3 in /opt/conda/lib/python3.12/site-packages (from python-slugify-&gt;kaggle) (1.3)
 Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /opt/conda/lib/python3.12/site-packages (from requests-&gt;kaggle) (3.4.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /opt/conda/lib/python3.12/site-packages (from requests-&gt;kaggle) (3.11)
 Requirement already satisfied: certifi&gt;=2017.4.17 in /opt/conda/lib/python3.12/site-packages (from requests-&gt;kaggle) (2025.10.5)
-Collecting urllib3&gt;=1.15.1 (from kaggle)
-  Downloading urllib3-2.6.2-py3-none-any.whl.metadata (6.6 kB)
-Downloading kaggle-1.8.3-py3-none-any.whl (102 kB)
-Downloading kagglesdk-0.1.14-py3-none-any.whl (159 kB)
-Downloading mypy-1.19.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (13.6 MB)
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">13.6/13.6 MB</span> <span class="ansi-red-fg">176.2 MB/s</span>  <span class="ansi-yellow-fg">0:00:00</span>
-Downloading librt-0.7.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (189 kB)
-Downloading types_requests-2.32.4.20250913-py3-none-any.whl (20 kB)
-Downloading urllib3-2.6.2-py3-none-any.whl (131 kB)
-Downloading types_tqdm-4.67.0.20250809-py3-none-any.whl (24 kB)
-Installing collected packages: urllib3, librt, types-requests, mypy, types-tqdm, kagglesdk, kaggle
-  Attempting uninstall: urllib3
-    Found existing installation: urllib3 1.26.20
-    Uninstalling urllib3-1.26.20:
-      Successfully uninstalled urllib3-1.26.20
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7/7</span> [kaggle]2m6/7 [kaggle]dk]
-<span class="ansi-red-fg">ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
-sagemaker-studio 1.1.1 requires pydynamodb&gt;=0.7.4, which is not installed.
-sparkmagic 0.21.0 requires pandas&lt;2.0.0,&gt;=0.17.1, but you have pandas 2.3.3 which is incompatible.</span><span class="ansi-red-fg">
-</span>Successfully installed kaggle-1.8.3 kagglesdk-0.1.14 librt-0.7.5 mypy-1.19.1 types-requests-2.32.4.20250913 types-tqdm-4.67.0.20250809 urllib3-2.6.2
 bike-sharing-demand.zip: Skipping, found more recently modified local copy (use --force to force download)
 Archive:  bike-sharing-demand.zip
   inflating: sampleSubmission.csv    
@@ -8475,7 +8432,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260101_124734"
+<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260102_062502"
 Verbosity: 2 (Standard Logging)
 =================== System Info ===================
 AutoGluon Version:  1.4.0
@@ -8484,8 +8441,8 @@ Operating System:   Linux
 Platform Machine:   x86_64
 Platform Version:   #1 SMP PREEMPT_DYNAMIC Mon Dec  1 05:36:50 UTC 2025
 CPU Count:          2
-Memory Avail:       1.11 GB / 3.75 GB (29.7%)
-Disk Space Avail:   8589934588.40 GB / 8589934592.00 GB (100.0%)
+Memory Avail:       1.63 GB / 3.75 GB (43.5%)
+Disk Space Avail:   8589934587.36 GB / 8589934592.00 GB (100.0%)
 ===================================================
 Presets specified: ['best_quality']
 Using hyperparameters preset: hyperparameters='zeroshot'
@@ -8495,186 +8452,168 @@ DyStack is enabled (dynamic_stacking=True). AutoGluon will try to determine whet
 	This is used to identify the optimal `num_stack_levels` value. Copies of AutoGluon will be fit on subsets of the data. Then holdout validation data is used to detect stacked overfitting.
 	Running DyStack for up to 150s of the 600s of remaining time (25%).
 	Running DyStack sub-fit in a ray process to avoid memory leakage. Enabling ray logging (enable_ray_logging=True). Specify `ds_args={'enable_ray_logging': False}` if you experience logging issues.
-2026-01-01 12:47:39,915	WARNING services.py:2070 -- WARNING: The object store is using /tmp instead of /dev/shm because /dev/shm has only 409964544 bytes available. This will harm performance! You may be able to free up space by deleting files in /dev/shm. If you are inside a Docker container, you can increase /dev/shm size by passing '--shm-size=0.76gb' to 'docker run' (or add it to the run_options list in a Ray cluster config). Make sure to set this to more than 30% of available RAM.
-2026-01-01 12:47:41,201	INFO worker.py:1843 -- Started a local Ray instance. View the dashboard at <span class="ansi-green-intense-fg ansi-bold">http://127.0.0.1:8265 </span>
-		Context path: "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734/ds_sub_fit/sub_fit_ho"
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Running DyStack sub-fit ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Beginning AutoGluon training ... Time limit = 144s
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734/ds_sub_fit/sub_fit_ho"
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Train Data Rows:    9676
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Train Data Columns: 9
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Label Column:       count
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Problem Type:       regression
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Preprocessing data ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Using Feature Generators to preprocess the data ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting AutoMLPipelineFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Available Memory:                    825.20 MB
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Train Data (Original)  Memory Usage: 0.66 MB (0.1% of available memory)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Stage 1 Generators:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting AsTypeFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 			Note: Converting 2 features to boolean dtype as they only contain 2 unique values.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Stage 2 Generators:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting FillNaFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Stage 3 Generators:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting IdentityFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting DatetimeFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Stage 4 Generators:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting DropUniqueFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Stage 5 Generators:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		Fitting DropDuplicatesFeatureGenerator...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Types of features in original data (raw dtype, special dtypes):
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('datetime', []) : 1 | ['datetime']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('float', [])    : 3 | ['temp', 'atemp', 'windspeed']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('int', [])      : 5 | ['season', 'holiday', 'workingday', 'weather', 'humidity']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Types of features in processed data (raw dtype, special dtypes):
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('int', [])                  : 3 | ['season', 'weather', 'humidity']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('int', ['bool'])            : 2 | ['holiday', 'workingday']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 		('int', ['datetime_as_int']) : 5 | ['datetime', 'datetime.year', 'datetime.month', 'datetime.day', 'datetime.dayofweek']
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.1s = Fit runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	9 features in original data used to generate 13 features in processed data.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Train Data (Processed) Memory Usage: 0.83 MB (0.1% of available memory)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Data preprocessing and feature engineering runtime = 0.08s ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	To change this, specify the eval_metric parameter of Predictor()
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Large model count detected (110 configs) ... Only displaying the first 3 models of each family. To see all, set `verbosity=3`.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> User-specified model hyperparameters to be fit:
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> {
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'NN_TORCH': [{}, {'activation': 'elu', 'dropout_prob': 0.10077639529843717, 'hidden_size': 108, 'learning_rate': 0.002735937344002146, 'num_layers': 4, 'use_batchnorm': True, 'weight_decay': 1.356433327634438e-12, 'ag_args': {'name_suffix': '_r79', 'priority': -2}}, {'activation': 'elu', 'dropout_prob': 0.11897478034205347, 'hidden_size': 213, 'learning_rate': 0.0010474382260641949, 'num_layers': 4, 'use_batchnorm': False, 'weight_decay': 5.594471067786272e-10, 'ag_args': {'name_suffix': '_r22', 'priority': -7}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'GBM': [{'extra_trees': True, 'ag_args': {'name_suffix': 'XT'}}, {}, {'learning_rate': 0.03, 'num_leaves': 128, 'feature_fraction': 0.9, 'min_data_in_leaf': 3, 'ag_args': {'name_suffix': 'Large', 'priority': 0, 'hyperparameter_tune_kwargs': None}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'CAT': [{}, {'depth': 6, 'grow_policy': 'SymmetricTree', 'l2_leaf_reg': 2.1542798306067823, 'learning_rate': 0.06864209415792857, 'max_ctr_complexity': 4, 'one_hot_max_size': 10, 'ag_args': {'name_suffix': '_r177', 'priority': -1}}, {'depth': 8, 'grow_policy': 'Depthwise', 'l2_leaf_reg': 2.7997999596449104, 'learning_rate': 0.031375015734637225, 'max_ctr_complexity': 2, 'one_hot_max_size': 3, 'ag_args': {'name_suffix': '_r9', 'priority': -5}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'XGB': [{}, {'colsample_bytree': 0.6917311125174739, 'enable_categorical': False, 'learning_rate': 0.018063876087523967, 'max_depth': 10, 'min_child_weight': 0.6028633586934382, 'ag_args': {'name_suffix': '_r33', 'priority': -8}}, {'colsample_bytree': 0.6628423832084077, 'enable_categorical': False, 'learning_rate': 0.08775715546881824, 'max_depth': 5, 'min_child_weight': 0.6294123374222513, 'ag_args': {'name_suffix': '_r89', 'priority': -16}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'FASTAI': [{}, {'bs': 256, 'emb_drop': 0.5411770367537934, 'epochs': 43, 'layers': [800, 400], 'lr': 0.01519848858318159, 'ps': 0.23782946566604385, 'ag_args': {'name_suffix': '_r191', 'priority': -4}}, {'bs': 2048, 'emb_drop': 0.05070411322605811, 'epochs': 29, 'layers': [200, 100], 'lr': 0.08974235041576624, 'ps': 0.10393466140748028, 'ag_args': {'name_suffix': '_r102', 'priority': -11}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'RF': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	'XT': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> }
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> AutoGluon will fit 2 stack levels (L1 to L2) ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting 106 L1 models, fit_strategy="sequential" ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 95.85s of the 143.81s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.54%)
+2026-01-02 06:25:08,981	WARNING services.py:2070 -- WARNING: The object store is using /tmp instead of /dev/shm because /dev/shm has only 409960448 bytes available. This will harm performance! You may be able to free up space by deleting files in /dev/shm. If you are inside a Docker container, you can increase /dev/shm size by passing '--shm-size=0.77gb' to 'docker run' (or add it to the run_options list in a Ray cluster config). Make sure to set this to more than 30% of available RAM.
+2026-01-02 06:25:10,161	INFO worker.py:1843 -- Started a local Ray instance. View the dashboard at <span class="ansi-green-intense-fg ansi-bold">http://127.0.0.1:8265 </span>
+		Context path: "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502/ds_sub_fit/sub_fit_ho"
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Running DyStack sub-fit ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Beginning AutoGluon training ... Time limit = 144s
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502/ds_sub_fit/sub_fit_ho"
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Train Data Rows:    9676
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Train Data Columns: 9
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Label Column:       count
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Problem Type:       regression
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Preprocessing data ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Using Feature Generators to preprocess the data ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting AutoMLPipelineFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Available Memory:                    1176.04 MB
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Train Data (Original)  Memory Usage: 0.66 MB (0.1% of available memory)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Stage 1 Generators:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting AsTypeFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 			Note: Converting 2 features to boolean dtype as they only contain 2 unique values.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Stage 2 Generators:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting FillNaFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Stage 3 Generators:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting IdentityFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting DatetimeFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Stage 4 Generators:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting DropUniqueFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Stage 5 Generators:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		Fitting DropDuplicatesFeatureGenerator...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Types of features in original data (raw dtype, special dtypes):
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('datetime', []) : 1 | ['datetime']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('float', [])    : 3 | ['temp', 'atemp', 'windspeed']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('int', [])      : 5 | ['season', 'holiday', 'workingday', 'weather', 'humidity']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Types of features in processed data (raw dtype, special dtypes):
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('int', [])                  : 3 | ['season', 'weather', 'humidity']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('int', ['bool'])            : 2 | ['holiday', 'workingday']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 		('int', ['datetime_as_int']) : 5 | ['datetime', 'datetime.year', 'datetime.month', 'datetime.day', 'datetime.dayofweek']
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.1s = Fit runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	9 features in original data used to generate 13 features in processed data.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Train Data (Processed) Memory Usage: 0.83 MB (0.1% of available memory)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Data preprocessing and feature engineering runtime = 0.09s ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	To change this, specify the eval_metric parameter of Predictor()
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Large model count detected (110 configs) ... Only displaying the first 3 models of each family. To see all, set `verbosity=3`.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> User-specified model hyperparameters to be fit:
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> {
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'NN_TORCH': [{}, {'activation': 'elu', 'dropout_prob': 0.10077639529843717, 'hidden_size': 108, 'learning_rate': 0.002735937344002146, 'num_layers': 4, 'use_batchnorm': True, 'weight_decay': 1.356433327634438e-12, 'ag_args': {'name_suffix': '_r79', 'priority': -2}}, {'activation': 'elu', 'dropout_prob': 0.11897478034205347, 'hidden_size': 213, 'learning_rate': 0.0010474382260641949, 'num_layers': 4, 'use_batchnorm': False, 'weight_decay': 5.594471067786272e-10, 'ag_args': {'name_suffix': '_r22', 'priority': -7}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'GBM': [{'extra_trees': True, 'ag_args': {'name_suffix': 'XT'}}, {}, {'learning_rate': 0.03, 'num_leaves': 128, 'feature_fraction': 0.9, 'min_data_in_leaf': 3, 'ag_args': {'name_suffix': 'Large', 'priority': 0, 'hyperparameter_tune_kwargs': None}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'CAT': [{}, {'depth': 6, 'grow_policy': 'SymmetricTree', 'l2_leaf_reg': 2.1542798306067823, 'learning_rate': 0.06864209415792857, 'max_ctr_complexity': 4, 'one_hot_max_size': 10, 'ag_args': {'name_suffix': '_r177', 'priority': -1}}, {'depth': 8, 'grow_policy': 'Depthwise', 'l2_leaf_reg': 2.7997999596449104, 'learning_rate': 0.031375015734637225, 'max_ctr_complexity': 2, 'one_hot_max_size': 3, 'ag_args': {'name_suffix': '_r9', 'priority': -5}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'XGB': [{}, {'colsample_bytree': 0.6917311125174739, 'enable_categorical': False, 'learning_rate': 0.018063876087523967, 'max_depth': 10, 'min_child_weight': 0.6028633586934382, 'ag_args': {'name_suffix': '_r33', 'priority': -8}}, {'colsample_bytree': 0.6628423832084077, 'enable_categorical': False, 'learning_rate': 0.08775715546881824, 'max_depth': 5, 'min_child_weight': 0.6294123374222513, 'ag_args': {'name_suffix': '_r89', 'priority': -16}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'FASTAI': [{}, {'bs': 256, 'emb_drop': 0.5411770367537934, 'epochs': 43, 'layers': [800, 400], 'lr': 0.01519848858318159, 'ps': 0.23782946566604385, 'ag_args': {'name_suffix': '_r191', 'priority': -4}}, {'bs': 2048, 'emb_drop': 0.05070411322605811, 'epochs': 29, 'layers': [200, 100], 'lr': 0.08974235041576624, 'ps': 0.10393466140748028, 'ag_args': {'name_suffix': '_r102', 'priority': -11}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'RF': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	'XT': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> }
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> AutoGluon will fit 2 stack levels (L1 to L2) ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting 106 L1 models, fit_strategy="sequential" ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 96.02s of the 144.05s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.04%)
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_ray_fit pid=1210)</span> [1000]	valid_set's rmse: 130.657
+<pre><span class="ansi-cyan-fg">(_ray_fit pid=27784)</span> [1000]	valid_set's rmse: 129.692
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_dystack pid=1077)</span> WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271686.197384    1123 chttp2_transport.cc:1182] ipv4:169.255.255.2:41189: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-01T12:48:06.196362808+00:00", http2_error:2, grpc_status:14}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271691.641297    1122 chttp2_transport.cc:1182] ipv4:169.255.255.2:39619: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-01T12:48:11.641293684+00:00", http2_error:2, grpc_status:14}
-<span class="ansi-cyan-fg">(_ray_fit pid=1278)</span> Warning: Low available memory may cause OOM error if training continues
-<span class="ansi-cyan-fg">(_ray_fit pid=1278)</span> Available Memory: 475 MB
-<span class="ansi-cyan-fg">(_ray_fit pid=1278)</span> Estimated GBM model size: 0 MB
-<span class="ansi-cyan-fg">(_ray_fit pid=1278)</span> Warning: Early stopped GBM model prior to optimal result to avoid OOM error. Please increase available memory to avoid subpar model quality.
+<pre><span class="ansi-cyan-fg">(_dystack pid=27651)</span> WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> I0000 00:00:1767335131.009858   27710 chttp2_transport.cc:1182] ipv4:169.255.255.2:36771: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-02T06:25:31.00984418+00:00"}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> I0000 00:00:1767335135.974203   27715 chttp2_transport.cc:1182] ipv4:169.255.255.2:44673: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-02T06:25:35.974199285+00:00", http2_error:2, grpc_status:14}
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_ray_fit pid=1345)</span> [1000]	valid_set's rmse: 128.154<span class="ansi-green-fg"> [repeated 5x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)</span>
-<span class="ansi-cyan-fg">(_ray_fit pid=1345)</span> [5000]	valid_set's rmse: 125.681<span class="ansi-green-fg"> [repeated 8x across cluster]</span>
-<span class="ansi-cyan-fg">(_ray_fit pid=1345)</span> [9000]	valid_set's rmse: 125.618<span class="ansi-green-fg"> [repeated 8x across cluster]</span>
-<span class="ansi-cyan-fg">(_ray_fit pid=1437)</span> [1000]	valid_set's rmse: 137.712<span class="ansi-green-fg"> [repeated 2x across cluster]</span>
-<span class="ansi-cyan-fg">(_ray_fit pid=1439)</span> [5000]	valid_set's rmse: 137.961<span class="ansi-green-fg"> [repeated 9x across cluster]</span>
+<pre><span class="ansi-cyan-fg">(_ray_fit pid=27891)</span> [1000]	valid_set's rmse: 132.725<span class="ansi-green-fg"> [repeated 5x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=27923)</span> [1000]	valid_set's rmse: 128.154
+<span class="ansi-cyan-fg">(_ray_fit pid=27923)</span> [2000]	valid_set's rmse: 126.702
+<span class="ansi-cyan-fg">(_ray_fit pid=27923)</span> [3000]	valid_set's rmse: 126.147
+<span class="ansi-cyan-fg">(_ray_fit pid=27923)</span> [6000]	valid_set's rmse: 125.468<span class="ansi-green-fg"> [repeated 6x across cluster]</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=27959)</span> [8000]	valid_set's rmse: 132.379<span class="ansi-green-fg"> [repeated 8x across cluster]</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=27998)</span> [1000]	valid_set's rmse: 137.712<span class="ansi-green-fg"> [repeated 2x across cluster]</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=27998)</span> [5000]	valid_set's rmse: 135.358<span class="ansi-green-fg"> [repeated 6x across cluster]</span>
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271739.603117    1122 chttp2_transport.cc:1182] ipv4:169.255.255.2:38315: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:48:59.602052462+00:00"}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-144.1602	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	61.12s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	11.93s	 = Validation runtime
-<span class="ansi-cyan-fg">(_ray_fit pid=1311)</span> Warning: Low available memory may cause OOM error if training continues
-<span class="ansi-cyan-fg">(_ray_fit pid=1311)</span> Available Memory: 475 MB
-<span class="ansi-cyan-fg">(_ray_fit pid=1311)</span> Estimated GBM model size: 0 MB
-<span class="ansi-cyan-fg">(_ray_fit pid=1311)</span> Warning: Early stopped GBM model prior to optimal result to avoid OOM error. Please increase available memory to avoid subpar model quality.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: LightGBM_BAG_L1 ... Training model for up to 23.81s of the 71.76s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.31%)
+<pre><span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-131.9758	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	58.26s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	11.74s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: LightGBM_BAG_L1 ... Training model for up to 27.30s of the 75.33s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.35%)
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_ray_fit pid=1508)</span> [1000]	valid_set's rmse: 129.285<span class="ansi-green-fg"> [repeated 4x across cluster]</span>
+<pre><span class="ansi-cyan-fg">(_ray_fit pid=28070)</span> [1000]	valid_set's rmse: 129.285<span class="ansi-green-fg"> [repeated 7x across cluster]</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=28144)</span> [1000]	valid_set's rmse: 135.098<span class="ansi-green-fg"> [repeated 2x across cluster]</span>
+<span class="ansi-cyan-fg">(_ray_fit pid=28208)</span> [1000]	valid_set's rmse: 124.896
+<span class="ansi-cyan-fg">(_ray_fit pid=28243)</span> [1000]	valid_set's rmse: 134.058
+<span class="ansi-cyan-fg">(_ray_fit pid=28278)</span> [1000]	valid_set's rmse: 134.479
+<span class="ansi-cyan-fg">(_ray_fit pid=28310)</span> [1000]	valid_set's rmse: 136.511
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271747.062344    1123 chttp2_transport.cc:1182] ipv4:169.255.255.2:33039: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:49:07.062339296+00:00"}
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_ray_fit pid=1574)</span> [1000]	valid_set's rmse: 135.098<span class="ansi-green-fg"> [repeated 2x across cluster]</span>
-<span class="ansi-cyan-fg">(_ray_fit pid=1639)</span> [1000]	valid_set's rmse: 124.896
-<span class="ansi-cyan-fg">(_ray_fit pid=1671)</span> [1000]	valid_set's rmse: 134.058
-<span class="ansi-cyan-fg">(_ray_fit pid=1704)</span> [1000]	valid_set's rmse: 134.479
-<span class="ansi-cyan-fg">(_ray_fit pid=1745)</span> [1000]	valid_set's rmse: 136.511
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre><span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-131.8496	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	27.91s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	1.07s	 = Validation runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: WeightedEnsemble_L2 ... Training model for up to 143.82s of the 38.03s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Ensemble Weights: {'LightGBM_BAG_L1': 0.833, 'LightGBMXT_BAG_L1': 0.167}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-131.2935	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.01s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.0s	 = Validation runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting 106 L2 models, fit_strategy="sequential" ...
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 37.93s of the 37.91s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.15%)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271779.234048    1123 chttp2_transport.cc:1182] ipv4:169.255.255.2:34975: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-01T12:49:39.234046635+00:00", http2_error:2, grpc_status:14}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-130.9584	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	20.9s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.1s	 = Validation runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: LightGBM_BAG_L2 ... Training model for up to 13.61s of the 13.59s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.70%)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> I0000 00:00:1767271823.698335    1123 chttp2_transport.cc:1182] ipv4:169.255.255.2:45937: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:50:23.698330821+00:00"}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-131.5988	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	21.53s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.05s	 = Validation runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Fitting model: WeightedEnsemble_L3 ... Training model for up to 143.82s of the -14.13s of remaining time.
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	Ensemble Weights: {'LightGBMXT_BAG_L2': 0.56, 'LightGBM_BAG_L1': 0.32, 'LightGBM_BAG_L2': 0.12}
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	-130.5997	 = Validation score   (-root_mean_squared_error)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.02s	 = Training   runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> 	0.0s	 = Validation runtime
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> AutoGluon training complete, total runtime = 158.3s ... Best model: WeightedEnsemble_L3 | Estimated inference throughput: 92.0 rows/s (1210 batch size)
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734/ds_sub_fit/sub_fit_ho")
-<span class="ansi-cyan-fg">(_dystack pid=1077)</span> Deleting DyStack predictor artifacts (clean_up_fits=True) ...
+<pre><span class="ansi-cyan-fg">(_dystack pid=27651)</span> I0000 00:00:1767335214.891078   27711 chttp2_transport.cc:1182] ipv4:169.255.255.2:36655: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-02T06:26:54.891075674+00:00", http2_error:2, grpc_status:14}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-131.8496	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	27.48s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	1.12s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: WeightedEnsemble_L2 ... Training model for up to 144.06s of the 41.99s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Ensemble Weights: {'LightGBM_BAG_L1': 0.52, 'LightGBMXT_BAG_L1': 0.48}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-130.6986	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.01s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.0s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting 106 L2 models, fit_strategy="sequential" ...
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 41.90s of the 41.88s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.11%)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-130.7673	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	25.51s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.08s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: LightGBM_BAG_L2 ... Training model for up to 12.87s of the 12.85s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.70%)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> I0000 00:00:1767335258.137090   27710 chttp2_transport.cc:1182] ipv4:169.255.255.2:37915: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-02T06:27:38.137085379+00:00"}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> I0000 00:00:1767335270.554825   27710 chttp2_transport.cc:1182] ipv4:169.255.255.2:36009: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-02T06:27:50.554821463+00:00", http2_error:2, grpc_status:14}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-131.1229	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	22.6s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.06s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Fitting model: WeightedEnsemble_L3 ... Training model for up to 144.06s of the -15.23s of remaining time.
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	Ensemble Weights: {'LightGBMXT_BAG_L2': 0.471, 'LightGBM_BAG_L1': 0.294, 'LightGBM_BAG_L2': 0.235}
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	-130.3612	 = Validation score   (-root_mean_squared_error)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.01s	 = Training   runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> 	0.0s	 = Validation runtime
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> AutoGluon training complete, total runtime = 159.7s ... Best model: WeightedEnsemble_L3 | Estimated inference throughput: 93.1 rows/s (1210 batch size)
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502/ds_sub_fit/sub_fit_ho")
+<span class="ansi-cyan-fg">(_dystack pid=27651)</span> Deleting DyStack predictor artifacts (clean_up_fits=True) ...
 Leaderboard on holdout data (DyStack):
                  model  score_holdout   score_val              eval_metric  pred_time_test  pred_time_val    fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
-0    LightGBMXT_BAG_L2    -129.905629 -130.958411  root_mean_squared_error        9.292740      13.110052  109.933249                 0.206248                0.104123          20.903491            2       True          4
-1  WeightedEnsemble_L3    -129.910959 -130.599732  root_mean_squared_error        9.498652      13.159392  131.485301                 0.042647                0.000628           0.020981            3       True          6
-2  WeightedEnsemble_L2    -130.638528 -131.293518  root_mean_squared_error        9.135909      13.006474   89.040098                 0.049417                0.000545           0.010340            2       True          3
-3      LightGBM_BAG_L1    -130.706758 -131.849580  root_mean_squared_error        1.622198       1.072520   27.914756                 1.622198                1.072520          27.914756            1       True          2
-4      LightGBM_BAG_L2    -131.195681 -131.598799  root_mean_squared_error        9.249756      13.054640  110.560829                 0.163264                0.048712          21.531071            2       True          5
-5    LightGBMXT_BAG_L1    -134.255600 -144.160214  root_mean_squared_error        7.464294      11.933408   61.115002                 7.464294               11.933408          61.115002            1       True          1
+0  WeightedEnsemble_L3    -129.787458 -130.361243  root_mean_squared_error       10.459150      12.992111  133.858719                 0.005302                0.000668           0.013944            3       True          6
+1    LightGBMXT_BAG_L2    -129.838593 -130.767295  root_mean_squared_error       10.375731      12.929302  111.247517                 0.131032                0.075653          25.506316            2       True          4
+2  WeightedEnsemble_L2    -130.360930 -130.698558  root_mean_squared_error       10.253157      12.854163   85.750226                 0.008458                0.000515           0.009026            2       True          3
+3      LightGBM_BAG_L2    -130.423413 -131.122903  root_mean_squared_error       10.322816      12.915790  108.338459                 0.078117                0.062142          22.597259            2       True          5
+4      LightGBM_BAG_L1    -130.706758 -131.849580  root_mean_squared_error        1.144845       1.117957   27.476228                 1.144845                1.117957          27.476228            1       True          2
+5    LightGBMXT_BAG_L1    -131.068281 -131.975832  root_mean_squared_error        9.099854      11.735691   58.264973                 9.099854               11.735691          58.264973            1       True          1
 	1	 = Optimal   num_stack_levels (Stacked Overfitting Occurred: False)
-	181s	 = DyStack   runtime |	419s	 = Remaining runtime
+	180s	 = DyStack   runtime |	420s	 = Remaining runtime
 Starting main fit with num_stack_levels=1.
 	For future fit calls on this dataset, you can skip DyStack to save time: `predictor.fit(..., dynamic_stacking=False, num_stack_levels=1)`
-Beginning AutoGluon training ... Time limit = 419s
-AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734"
+Beginning AutoGluon training ... Time limit = 420s
+AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502"
 Train Data Rows:    10886
 Train Data Columns: 9
 Label Column:       count
@@ -8682,7 +8621,7 @@ Problem Type:       regression
 Preprocessing data ...
 Using Feature Generators to preprocess the data ...
 Fitting AutoMLPipelineFeatureGenerator...
-	Available Memory:                    961.70 MB
+	Available Memory:                    978.52 MB
 	Train Data (Original)  Memory Usage: 0.75 MB (0.1% of available memory)
 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
 	Stage 1 Generators:
@@ -8709,7 +8648,7 @@ Fitting AutoMLPipelineFeatureGenerator...
 	0.1s = Fit runtime
 	9 features in original data used to generate 13 features in processed data.
 	Train Data (Processed) Memory Usage: 0.93 MB (0.1% of available memory)
-Data preprocessing and feature engineering runtime = 0.17s ...
+Data preprocessing and feature engineering runtime = 0.16s ...
 AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
 	To change this, specify the eval_metric parameter of Predictor()
@@ -8726,77 +8665,74 @@ User-specified model hyperparameters to be fit:
 }
 AutoGluon will fit 2 stack levels (L1 to L2) ...
 Fitting 106 L1 models, fit_strategy="sequential" ...
-Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 279.41s of the 419.20s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.08%)
+Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 279.55s of the 419.42s of remaining time.
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=0.91%)
 	-131.4609	 = Validation score   (-root_mean_squared_error)
-	55.26s	 = Training   runtime
-	9.02s	 = Validation runtime
-Fitting model: LightGBM_BAG_L1 ... Training model for up to 214.53s of the 354.32s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.58%)
+	55.95s	 = Training   runtime
+	9.08s	 = Validation runtime
+Fitting model: LightGBM_BAG_L1 ... Training model for up to 214.13s of the 353.99s of remaining time.
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.52%)
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-I0000 00:00:1767271928.716993     910 chttp2_transport.cc:1182] ipv4:169.255.255.2:38137: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:52:08.716977379+00:00"}
-I0000 00:00:1767271936.235527    1066 chttp2_transport.cc:1182] ipv4:169.255.255.2:44439: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:52:16.235522692+00:00"}
+I0000 00:00:1767335360.898527   27647 chttp2_transport.cc:1182] ipv4:169.255.255.2:42271: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-02T06:29:20.898516402+00:00"}
 	-131.0542	 = Validation score   (-root_mean_squared_error)
-	28.07s	 = Training   runtime
-	1.45s	 = Validation runtime
-Fitting model: RandomForestMSE_BAG_L1 ... Training model for up to 181.58s of the 321.37s of remaining time.
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 130 due to low memory. Expected memory usage reduced from 34.38% -&gt; 15.0% of available memory...
-	-117.3548	 = Validation score   (-root_mean_squared_error)
-	6.81s	 = Training   runtime
-	0.36s	 = Validation runtime
-Fitting model: CatBoost_BAG_L1 ... Training model for up to 173.71s of the 313.50s of remaining time.
-	Memory not enough to fit 8 folds in parallel. Will train 2 folds in parallel instead (Estimated 33.71% memory usage per fold, 67.41%/80.00% total).
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=33.71%)
-	-130.6759	 = Validation score   (-root_mean_squared_error)
-	142.99s	 = Training   runtime
-	0.11s	 = Validation runtime
-Fitting model: ExtraTreesMSE_BAG_L1 ... Training model for up to 26.77s of the 166.56s of remaining time.
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 139 due to low memory. Expected memory usage reduced from 32.2% -&gt; 15.0% of available memory...
-	-125.2726	 = Validation score   (-root_mean_squared_error)
-	3.55s	 = Training   runtime
-	0.37s	 = Validation runtime
-Fitting model: NeuralNetFastAI_BAG_L1 ... Training model for up to 22.12s of the 161.91s of remaining time.
+	28.74s	 = Training   runtime
+	1.5s	 = Validation runtime
+Fitting model: RandomForestMSE_BAG_L1 ... Training model for up to 180.33s of the 320.20s of remaining time.
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 128 due to low memory. Expected memory usage reduced from 35.06% -&gt; 15.0% of available memory...
+	-117.3765	 = Validation score   (-root_mean_squared_error)
+	6.7s	 = Training   runtime
+	0.35s	 = Validation runtime
+Fitting model: CatBoost_BAG_L1 ... Training model for up to 172.55s of the 312.42s of remaining time.
+	Memory not enough to fit 8 folds in parallel. Will train 2 folds in parallel instead (Estimated 33.54% memory usage per fold, 67.08%/80.00% total).
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=33.54%)
+	-130.6927	 = Validation score   (-root_mean_squared_error)
+	142.74s	 = Training   runtime
+	0.09s	 = Validation runtime
+Fitting model: ExtraTreesMSE_BAG_L1 ... Training model for up to 25.90s of the 165.76s of remaining time.
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 156 due to low memory. Expected memory usage reduced from 28.75% -&gt; 15.0% of available memory...
+	-124.9832	 = Validation score   (-root_mean_squared_error)
+	4.14s	 = Training   runtime
+	0.38s	 = Validation runtime
+Fitting model: NeuralNetFastAI_BAG_L1 ... Training model for up to 19.54s of the 159.40s of remaining time.
 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=0.89%)
-	-141.5237	 = Validation score   (-root_mean_squared_error)
-	52.22s	 = Training   runtime
+I0000 00:00:1767335584.123164   27738 chttp2_transport.cc:1182] ipv4:169.255.255.2:45113: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-02T06:33:04.122036476+00:00", http2_error:2, grpc_status:14}
+	-141.7262	 = Validation score   (-root_mean_squared_error)
+	45.44s	 = Training   runtime
 	0.28s	 = Validation runtime
-Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 104.25s of remaining time.
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 108.39s of remaining time.
 	Ensemble Weights: {'RandomForestMSE_BAG_L1': 1.0}
-	-117.3548	 = Validation score   (-root_mean_squared_error)
+	-117.3765	 = Validation score   (-root_mean_squared_error)
 	0.02s	 = Training   runtime
 	0.0s	 = Validation runtime
 Fitting 106 L2 models, fit_strategy="sequential" ...
-Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 104.13s of the 104.10s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.16%)
-I0000 00:00:1767272181.829013    1157 chttp2_transport.cc:1182] ipv4:169.255.255.2:44629: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:56:21.827631391+00:00"}
-	-116.8703	 = Validation score   (-root_mean_squared_error)
-	24.66s	 = Training   runtime
-	0.25s	 = Validation runtime
-Fitting model: LightGBM_BAG_L2 ... Training model for up to 75.80s of the 75.77s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.72%)
-I0000 00:00:1767272196.112468    1160 chttp2_transport.cc:1182] ipv4:169.255.255.2:43583: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {created_time:"2026-01-01T12:56:36.112466594+00:00", http2_error:2, grpc_status:14}
-	-117.1761	 = Validation score   (-root_mean_squared_error)
-	23.04s	 = Training   runtime
-	0.08s	 = Validation runtime
-Fitting model: RandomForestMSE_BAG_L2 ... Training model for up to 47.88s of the 47.85s of remaining time.
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 133 due to low memory. Expected memory usage reduced from 33.8% -&gt; 15.0% of available memory...
-	-119.7292	 = Validation score   (-root_mean_squared_error)
-	18.69s	 = Training   runtime
-	0.29s	 = Validation runtime
-Fitting model: CatBoost_BAG_L2 ... Training model for up to 28.23s of the 28.20s of remaining time.
-	Memory not enough to fit 8 folds in parallel. Will train 2 folds in parallel instead (Estimated 34.19% memory usage per fold, 68.38%/80.00% total).
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=34.19%)
-I0000 00:00:1767272267.806766    1162 chttp2_transport.cc:1182] ipv4:169.255.255.2:43899: Got goaway [2] err=UNAVAILABLE:GOAWAY received; Error code: 2; Debug Text: Cancelling all calls {grpc_status:14, http2_error:2, created_time:"2026-01-01T12:57:47.806762314+00:00"}
-	-116.3862	 = Validation score   (-root_mean_squared_error)
-	34.46s	 = Training   runtime
+Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 108.27s of the 108.23s of remaining time.
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.21%)
+	-116.5337	 = Validation score   (-root_mean_squared_error)
+	25.61s	 = Training   runtime
+	0.46s	 = Validation runtime
+Fitting model: LightGBM_BAG_L2 ... Training model for up to 78.77s of the 78.73s of remaining time.
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=1.71%)
+	-116.7969	 = Validation score   (-root_mean_squared_error)
+	23.43s	 = Training   runtime
 	0.1s	 = Validation runtime
-Fitting model: WeightedEnsemble_L3 ... Training model for up to 360.00s of the -12.17s of remaining time.
-	Ensemble Weights: {'CatBoost_BAG_L2': 0.45, 'LightGBMXT_BAG_L2': 0.25, 'RandomForestMSE_BAG_L1': 0.2, 'LightGBM_BAG_L2': 0.05, 'RandomForestMSE_BAG_L2': 0.05}
-	-116.1716	 = Validation score   (-root_mean_squared_error)
+Fitting model: RandomForestMSE_BAG_L2 ... Training model for up to 50.78s of the 50.74s of remaining time.
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 133 due to low memory. Expected memory usage reduced from 33.82% -&gt; 15.0% of available memory...
+	-119.9254	 = Validation score   (-root_mean_squared_error)
+	18.88s	 = Training   runtime
+	0.32s	 = Validation runtime
+Fitting model: CatBoost_BAG_L2 ... Training model for up to 30.89s of the 30.85s of remaining time.
+	Memory not enough to fit 8 folds in parallel. Will train 2 folds in parallel instead (Estimated 34.73% memory usage per fold, 69.46%/80.00% total).
+	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy (2 workers, per: cpus=1, gpus=0, memory=34.73%)
+	-116.1343	 = Validation score   (-root_mean_squared_error)
+	34.47s	 = Training   runtime
+	0.05s	 = Validation runtime
+Fitting model: WeightedEnsemble_L3 ... Training model for up to 360.00s of the -9.45s of remaining time.
+	Ensemble Weights: {'CatBoost_BAG_L2': 0.417, 'LightGBMXT_BAG_L2': 0.292, 'LightGBM_BAG_L2': 0.167, 'RandomForestMSE_BAG_L1': 0.125}
+	-115.9294	 = Validation score   (-root_mean_squared_error)
 	0.03s	 = Training   runtime
 	0.0s	 = Validation runtime
-AutoGluon training complete, total runtime = 431.88s ... Best model: WeightedEnsemble_L3 | Estimated inference throughput: 119.2 rows/s (1361 batch size)
-TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734")
+AutoGluon training complete, total runtime = 429.32s ... Best model: WeightedEnsemble_L3 | Estimated inference throughput: 116.8 rows/s (1361 batch size)
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502")
 </pre>
 </div>
 </div>
@@ -8837,21 +8773,21 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/cu
 <pre>*** Summary of fit() ***
 Estimated performance of each model:
                      model   score_val              eval_metric  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
-0      WeightedEnsemble_L3 -116.171575  root_mean_squared_error      12.311586  389.791704                0.000927           0.032125            3       True         12
-1          CatBoost_BAG_L2 -116.386178  root_mean_squared_error      11.686013  323.358831                0.100132          34.461038            2       True         11
-2        LightGBMXT_BAG_L2 -116.870325  root_mean_squared_error      11.837840  313.559353                0.251958          24.661561            2       True          8
-3          LightGBM_BAG_L2 -117.176117  root_mean_squared_error      11.666795  311.942774                0.080913          23.044981            2       True          9
-4   RandomForestMSE_BAG_L1 -117.354773  root_mean_squared_error       0.356903    6.810272                0.356903           6.810272            1       True          3
-5      WeightedEnsemble_L2 -117.354773  root_mean_squared_error       0.357481    6.829412                0.000578           0.019141            2       True          7
-6   RandomForestMSE_BAG_L2 -119.729171  root_mean_squared_error      11.877657  307.592000                0.291775          18.694207            2       True         10
-7     ExtraTreesMSE_BAG_L1 -125.272613  root_mean_squared_error       0.371708    3.545306                0.371708           3.545306            1       True          5
-8          CatBoost_BAG_L1 -130.675933  root_mean_squared_error       0.107758  142.990392                0.107758         142.990392            1       True          4
-9          LightGBM_BAG_L1 -131.054162  root_mean_squared_error       1.449924   28.071354                1.449924          28.071354            1       True          2
-10       LightGBMXT_BAG_L1 -131.460909  root_mean_squared_error       9.024281   55.262326                9.024281          55.262326            1       True          1
-11  NeuralNetFastAI_BAG_L1 -141.523652  root_mean_squared_error       0.275308   52.218143                0.275308          52.218143            1       True          6
+0      WeightedEnsemble_L3 -115.929418  root_mean_squared_error      12.291267  367.250604                0.000929           0.028932            3       True         12
+1          CatBoost_BAG_L2 -116.134287  root_mean_squared_error      11.728199  318.180046                0.050658          34.468251            2       True         11
+2        LightGBMXT_BAG_L2 -116.533723  root_mean_squared_error      12.134925  309.320649                0.457384          25.608854            2       True          8
+3          LightGBM_BAG_L2 -116.796867  root_mean_squared_error      11.782295  307.144566                0.104754          23.432771            2       True          9
+4   RandomForestMSE_BAG_L1 -117.376469  root_mean_squared_error       0.353266    6.702386                0.353266           6.702386            1       True          3
+5      WeightedEnsemble_L2 -117.376469  root_mean_squared_error       0.354035    6.725025                0.000769           0.022638            2       True          7
+6   RandomForestMSE_BAG_L2 -119.925372  root_mean_squared_error      11.999219  302.591066                0.321678          18.879272            2       True         10
+7     ExtraTreesMSE_BAG_L1 -124.983229  root_mean_squared_error       0.380341    4.140955                0.380341           4.140955            1       True          5
+8          CatBoost_BAG_L1 -130.692741  root_mean_squared_error       0.087073  142.738319                0.087073         142.738319            1       True          4
+9          LightGBM_BAG_L1 -131.054162  root_mean_squared_error       1.499771   28.737438                1.499771          28.737438            1       True          2
+10       LightGBMXT_BAG_L1 -131.460909  root_mean_squared_error       9.075410   55.952487                9.075410          55.952487            1       True          1
+11  NeuralNetFastAI_BAG_L1 -141.726192  root_mean_squared_error       0.281680   45.440207                0.281680          45.440207            1       True          6
 Number of models trained: 12
 Types of models trained:
-{'StackerEnsembleModel_CatBoost', 'StackerEnsembleModel_NNFastAiTabular', 'WeightedEnsembleModel', 'StackerEnsembleModel_LGB', 'StackerEnsembleModel_XT', 'StackerEnsembleModel_RF'}
+{'WeightedEnsembleModel', 'StackerEnsembleModel_CatBoost', 'StackerEnsembleModel_LGB', 'StackerEnsembleModel_RF', 'StackerEnsembleModel_NNFastAiTabular', 'StackerEnsembleModel_XT'}
 Bagging used: True  (with 8 folds)
 Multi-layer stack-ensembling used: True  (with 3 levels)
 Feature Metadata (Processed):
@@ -8860,7 +8796,7 @@ Feature Metadata (Processed):
 ('int', [])                  : 3 | ['season', 'weather', 'humidity']
 ('int', ['bool'])            : 2 | ['holiday', 'workingday']
 ('int', ['datetime_as_int']) : 5 | ['datetime', 'datetime.year', 'datetime.month', 'datetime.day', 'datetime.dayofweek']
-Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_124734/SummaryOfModels.html
+Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_062502/SummaryOfModels.html
 *** End of fit() summary ***
 </pre>
 </div>
@@ -8882,16 +8818,16 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
   'WeightedEnsemble_L3': 'WeightedEnsembleModel'},
  'model_performance': {'LightGBMXT_BAG_L1': -131.46090891834504,
   'LightGBM_BAG_L1': -131.054161598899,
-  'RandomForestMSE_BAG_L1': -117.35477282574286,
-  'CatBoost_BAG_L1': -130.6759330001685,
-  'ExtraTreesMSE_BAG_L1': -125.2726133140134,
-  'NeuralNetFastAI_BAG_L1': -141.52365183262432,
-  'WeightedEnsemble_L2': -117.35477282574286,
-  'LightGBMXT_BAG_L2': -116.87032481094236,
-  'LightGBM_BAG_L2': -117.1761172938235,
-  'RandomForestMSE_BAG_L2': -119.72917092228317,
-  'CatBoost_BAG_L2': -116.3861778441563,
-  'WeightedEnsemble_L3': -116.1715747618044},
+  'RandomForestMSE_BAG_L1': -117.37646910531093,
+  'CatBoost_BAG_L1': -130.69274120416847,
+  'ExtraTreesMSE_BAG_L1': -124.98322879879312,
+  'NeuralNetFastAI_BAG_L1': -141.72619216862844,
+  'WeightedEnsemble_L2': -117.37646910531093,
+  'LightGBMXT_BAG_L2': -116.53372272629053,
+  'LightGBM_BAG_L2': -116.79686654586834,
+  'RandomForestMSE_BAG_L2': -119.92537203232664,
+  'CatBoost_BAG_L2': -116.13428719586761,
+  'WeightedEnsemble_L3': -115.92941791037673},
  'model_best': 'WeightedEnsemble_L3',
  'model_paths': {'LightGBMXT_BAG_L1': ['LightGBMXT_BAG_L1'],
   'LightGBM_BAG_L1': ['LightGBM_BAG_L1'],
@@ -8905,30 +8841,30 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
   'RandomForestMSE_BAG_L2': ['RandomForestMSE_BAG_L2'],
   'CatBoost_BAG_L2': ['CatBoost_BAG_L2'],
   'WeightedEnsemble_L3': ['WeightedEnsemble_L3']},
- 'model_fit_times': {'LightGBMXT_BAG_L1': 55.26232600212097,
-  'LightGBM_BAG_L1': 28.071353912353516,
-  'RandomForestMSE_BAG_L1': 6.810271501541138,
-  'CatBoost_BAG_L1': 142.99039220809937,
-  'ExtraTreesMSE_BAG_L1': 3.5453057289123535,
-  'NeuralNetFastAI_BAG_L1': 52.218143463134766,
-  'WeightedEnsemble_L2': 0.019140958786010742,
-  'LightGBMXT_BAG_L2': 24.661560535430908,
-  'LightGBM_BAG_L2': 23.044981002807617,
-  'RandomForestMSE_BAG_L2': 18.694207191467285,
-  'CatBoost_BAG_L2': 34.4610378742218,
-  'WeightedEnsemble_L3': 0.03212475776672363},
- 'model_pred_times': {'LightGBMXT_BAG_L1': 9.024280548095703,
-  'LightGBM_BAG_L1': 1.4499244689941406,
-  'RandomForestMSE_BAG_L1': 0.3569025993347168,
-  'CatBoost_BAG_L1': 0.1077580451965332,
-  'ExtraTreesMSE_BAG_L1': 0.3717079162597656,
-  'NeuralNetFastAI_BAG_L1': 0.27530837059020996,
-  'WeightedEnsemble_L2': 0.0005779266357421875,
-  'LightGBMXT_BAG_L2': 0.25195813179016113,
-  'LightGBM_BAG_L2': 0.08091259002685547,
-  'RandomForestMSE_BAG_L2': 0.2917752265930176,
-  'CatBoost_BAG_L2': 0.10013151168823242,
-  'WeightedEnsemble_L3': 0.0009267330169677734},
+ 'model_fit_times': {'LightGBMXT_BAG_L1': 55.95248746871948,
+  'LightGBM_BAG_L1': 28.737438440322876,
+  'RandomForestMSE_BAG_L1': 6.702386379241943,
+  'CatBoost_BAG_L1': 142.73831939697266,
+  'ExtraTreesMSE_BAG_L1': 4.140955448150635,
+  'NeuralNetFastAI_BAG_L1': 45.44020748138428,
+  'WeightedEnsemble_L2': 0.022638320922851562,
+  'LightGBMXT_BAG_L2': 25.608854293823242,
+  'LightGBM_BAG_L2': 23.43277144432068,
+  'RandomForestMSE_BAG_L2': 18.879271507263184,
+  'CatBoost_BAG_L2': 34.4682514667511,
+  'WeightedEnsemble_L3': 0.02893233299255371},
+ 'model_pred_times': {'LightGBMXT_BAG_L1': 9.07541036605835,
+  'LightGBM_BAG_L1': 1.4997708797454834,
+  'RandomForestMSE_BAG_L1': 0.35326552391052246,
+  'CatBoost_BAG_L1': 0.08707332611083984,
+  'ExtraTreesMSE_BAG_L1': 0.3803408145904541,
+  'NeuralNetFastAI_BAG_L1': 0.2816801071166992,
+  'WeightedEnsemble_L2': 0.0007693767547607422,
+  'LightGBMXT_BAG_L2': 0.4573843479156494,
+  'LightGBM_BAG_L2': 0.10475420951843262,
+  'RandomForestMSE_BAG_L2': 0.32167768478393555,
+  'CatBoost_BAG_L2': 0.050658464431762695,
+  'WeightedEnsemble_L3': 0.0009293556213378906},
  'num_bag_folds': 8,
  'max_stack_level': 3,
  'model_hyperparams': {'LightGBMXT_BAG_L1': {'use_orig_features': True,
@@ -9031,32 +8967,32 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
    'bin': 'auto',
    'n_bins': None}},
  'leaderboard':                      model   score_val              eval_metric  \
- 0      WeightedEnsemble_L3 -116.171575  root_mean_squared_error   
- 1          CatBoost_BAG_L2 -116.386178  root_mean_squared_error   
- 2        LightGBMXT_BAG_L2 -116.870325  root_mean_squared_error   
- 3          LightGBM_BAG_L2 -117.176117  root_mean_squared_error   
- 4   RandomForestMSE_BAG_L1 -117.354773  root_mean_squared_error   
- 5      WeightedEnsemble_L2 -117.354773  root_mean_squared_error   
- 6   RandomForestMSE_BAG_L2 -119.729171  root_mean_squared_error   
- 7     ExtraTreesMSE_BAG_L1 -125.272613  root_mean_squared_error   
- 8          CatBoost_BAG_L1 -130.675933  root_mean_squared_error   
+ 0      WeightedEnsemble_L3 -115.929418  root_mean_squared_error   
+ 1          CatBoost_BAG_L2 -116.134287  root_mean_squared_error   
+ 2        LightGBMXT_BAG_L2 -116.533723  root_mean_squared_error   
+ 3          LightGBM_BAG_L2 -116.796867  root_mean_squared_error   
+ 4   RandomForestMSE_BAG_L1 -117.376469  root_mean_squared_error   
+ 5      WeightedEnsemble_L2 -117.376469  root_mean_squared_error   
+ 6   RandomForestMSE_BAG_L2 -119.925372  root_mean_squared_error   
+ 7     ExtraTreesMSE_BAG_L1 -124.983229  root_mean_squared_error   
+ 8          CatBoost_BAG_L1 -130.692741  root_mean_squared_error   
  9          LightGBM_BAG_L1 -131.054162  root_mean_squared_error   
  10       LightGBMXT_BAG_L1 -131.460909  root_mean_squared_error   
- 11  NeuralNetFastAI_BAG_L1 -141.523652  root_mean_squared_error   
+ 11  NeuralNetFastAI_BAG_L1 -141.726192  root_mean_squared_error   
  
      pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  \
- 0       12.311586  389.791704                0.000927           0.032125   
- 1       11.686013  323.358831                0.100132          34.461038   
- 2       11.837840  313.559353                0.251958          24.661561   
- 3       11.666795  311.942774                0.080913          23.044981   
- 4        0.356903    6.810272                0.356903           6.810272   
- 5        0.357481    6.829412                0.000578           0.019141   
- 6       11.877657  307.592000                0.291775          18.694207   
- 7        0.371708    3.545306                0.371708           3.545306   
- 8        0.107758  142.990392                0.107758         142.990392   
- 9        1.449924   28.071354                1.449924          28.071354   
- 10       9.024281   55.262326                9.024281          55.262326   
- 11       0.275308   52.218143                0.275308          52.218143   
+ 0       12.291267  367.250604                0.000929           0.028932   
+ 1       11.728199  318.180046                0.050658          34.468251   
+ 2       12.134925  309.320649                0.457384          25.608854   
+ 3       11.782295  307.144566                0.104754          23.432771   
+ 4        0.353266    6.702386                0.353266           6.702386   
+ 5        0.354035    6.725025                0.000769           0.022638   
+ 6       11.999219  302.591066                0.321678          18.879272   
+ 7        0.380341    4.140955                0.380341           4.140955   
+ 8        0.087073  142.738319                0.087073         142.738319   
+ 9        1.499771   28.737438                1.499771          28.737438   
+ 10       9.075410   55.952487                9.075410          55.952487   
+ 11       0.281680   45.440207                0.281680          45.440207   
  
      stack_level  can_infer  fit_order  
  0             3       True         12  
@@ -9108,11 +9044,11 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0    85.526031
-1    84.610336
-2    84.610336
-3    94.989899
-4    94.988403
+<pre>0    88.844597
+1    85.657654
+2    85.657654
+3    95.487389
+4    95.487389
 Name: count, dtype: float32</pre>
 </div>
 </div>
@@ -9152,13 +9088,13 @@ Name: count, dtype: float32</pre>
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>count    6493.000000
-mean      219.365723
-std       127.403877
-min        14.784681
-25%       119.379356
-50%       196.104507
-75%       304.348480
-max       626.080933
+mean      218.843750
+std       127.278152
+min        14.874316
+25%       119.590881
+50%       195.931229
+75%       305.002869
+max       626.075928
 Name: count, dtype: float64</pre>
 </div>
 </div>
@@ -9253,7 +9189,7 @@ Name: count, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 631kB/s]
+<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 700kB/s]
 Successfully submitted to Bike Sharing Demand</pre>
 </div>
 </div>
@@ -9818,7 +9754,7 @@ memory usage: 914.8 KB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260101_133230"
+<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260102_085713"
 Verbosity: 2 (Standard Logging)
 =================== System Info ===================
 AutoGluon Version:  1.4.0
@@ -9827,13 +9763,13 @@ Operating System:   Linux
 Platform Machine:   x86_64
 Platform Version:   #1 SMP PREEMPT_DYNAMIC Mon Dec  1 05:36:50 UTC 2025
 CPU Count:          2
-Memory Avail:       0.74 GB / 3.75 GB (19.8%)
-Disk Space Avail:   8589934588.40 GB / 8589934592.00 GB (100.0%)
+Memory Avail:       0.82 GB / 3.75 GB (21.8%)
+Disk Space Avail:   8589934586.83 GB / 8589934592.00 GB (100.0%)
 ===================================================
 Presets specified: ['medium_quality']
 Using hyperparameters preset: hyperparameters='default'
 Beginning AutoGluon training ... Time limit = 600s
-AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_133230"
+AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_085713"
 Train Data Rows:    10886
 Train Data Columns: 10
 Label Column:       count
@@ -9844,7 +9780,7 @@ Problem Type:       regression
 Preprocessing data ...
 Using Feature Generators to preprocess the data ...
 Fitting AutoMLPipelineFeatureGenerator...
-	Available Memory:                    764.10 MB
+	Available Memory:                    854.85 MB
 	Train Data (Original)  Memory Usage: 0.64 MB (0.1% of available memory)
 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
 	Stage 1 Generators:
@@ -9875,7 +9811,7 @@ Fitting AutoMLPipelineFeatureGenerator...
 	0.1s = Fit runtime
 	10 features in original data used to generate 14 features in processed data.
 	Train Data (Processed) Memory Usage: 0.83 MB (0.1% of available memory)
-Data preprocessing and feature engineering runtime = 0.13s ...
+Data preprocessing and feature engineering runtime = 0.16s ...
 AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
 	To change this, specify the eval_metric parameter of Predictor()
@@ -9891,8 +9827,8 @@ User-specified model hyperparameters to be fit:
 	'XT': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
 }
 Fitting 9 L1 models, fit_strategy="sequential" ...
-Fitting model: LightGBMXT ... Training model for up to 599.87s of the 599.87s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
+Fitting model: LightGBMXT ... Training model for up to 599.84s of the 599.84s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.8 GB
 </pre>
 </div>
 </div>
@@ -9912,10 +9848,10 @@ Fitting model: LightGBMXT ... Training model for up to 599.87s of the 599.87s of
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-35.712	 = Validation score   (-root_mean_squared_error)
-	6.8s	 = Training   runtime
-	0.7s	 = Validation runtime
-Fitting model: LightGBM ... Training model for up to 591.45s of the 591.45s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
+	6.94s	 = Training   runtime
+	0.76s	 = Validation runtime
+Fitting model: LightGBM ... Training model for up to 591.23s of the 591.22s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.8 GB
 </pre>
 </div>
 </div>
@@ -9930,44 +9866,44 @@ Fitting model: LightGBM ... Training model for up to 591.45s of the 591.45s of r
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-35.1309	 = Validation score   (-root_mean_squared_error)
-	1.6s	 = Training   runtime
-	0.11s	 = Validation runtime
-Fitting model: RandomForestMSE ... Training model for up to 589.43s of the 589.43s of remaining time.
+	1.62s	 = Training   runtime
+	0.12s	 = Validation runtime
+Fitting model: RandomForestMSE ... Training model for up to 589.24s of the 589.23s of remaining time.
 	Fitting with cpus=2, gpus=0
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 141 due to low memory. Expected memory usage reduced from 31.76% -&gt; 15.0% of available memory...
-	-38.939	 = Validation score   (-root_mean_squared_error)
-	7.05s	 = Training   runtime
-	0.08s	 = Validation runtime
-Fitting model: CatBoost ... Training model for up to 581.70s of the 581.70s of remaining time.
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 158 due to low memory. Expected memory usage reduced from 28.46% -&gt; 15.0% of available memory...
+	-38.8588	 = Validation score   (-root_mean_squared_error)
+	7.95s	 = Training   runtime
+	0.12s	 = Validation runtime
+Fitting model: CatBoost ... Training model for up to 580.61s of the 580.60s of remaining time.
 	Fitting with cpus=1, gpus=0
 	-35.2109	 = Validation score   (-root_mean_squared_error)
-	180.87s	 = Training   runtime
-	0.03s	 = Validation runtime
-Fitting model: ExtraTreesMSE ... Training model for up to 400.56s of the 400.56s of remaining time.
+	183.12s	 = Training   runtime
+	0.02s	 = Validation runtime
+Fitting model: ExtraTreesMSE ... Training model for up to 397.21s of the 397.20s of remaining time.
 	Fitting with cpus=2, gpus=0
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 129 due to low memory. Expected memory usage reduced from 34.81% -&gt; 15.0% of available memory...
-	-39.9988	 = Validation score   (-root_mean_squared_error)
-	3.25s	 = Training   runtime
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 135 due to low memory. Expected memory usage reduced from 33.31% -&gt; 15.0% of available memory...
+	-40.1382	 = Validation score   (-root_mean_squared_error)
+	3.35s	 = Training   runtime
 	0.08s	 = Validation runtime
-Fitting model: NeuralNetFastAI ... Training model for up to 396.80s of the 396.80s of remaining time.
+Fitting model: NeuralNetFastAI ... Training model for up to 393.29s of the 393.28s of remaining time.
 	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 	-45.8593	 = Validation score   (-root_mean_squared_error)
-	13.79s	 = Training   runtime
+	11.66s	 = Training   runtime
 	0.03s	 = Validation runtime
-Fitting model: XGBoost ... Training model for up to 382.84s of the 382.84s of remaining time.
+Fitting model: XGBoost ... Training model for up to 381.46s of the 381.45s of remaining time.
 	Fitting with cpus=1, gpus=0
 	-35.2467	 = Validation score   (-root_mean_squared_error)
-	3.24s	 = Training   runtime
-	0.11s	 = Validation runtime
-Fitting model: NeuralNetTorch ... Training model for up to 379.30s of the 379.30s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
+	3.23s	 = Training   runtime
+	0.14s	 = Validation runtime
+Fitting model: NeuralNetTorch ... Training model for up to 377.87s of the 377.86s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.8 GB
 /opt/conda/lib/python3.12/site-packages/sklearn/compose/_column_transformer.py:975: FutureWarning: The parameter `force_int_remainder_cols` is deprecated and will be removed in 1.9. It has no effect. Leave it to its default value to avoid this warning.
   warnings.warn(
 	-37.8169	 = Validation score   (-root_mean_squared_error)
-	327.4s	 = Training   runtime
+	335.49s	 = Training   runtime
 	0.02s	 = Validation runtime
-Fitting model: LightGBMLarge ... Training model for up to 51.78s of the 51.78s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
+Fitting model: LightGBMLarge ... Training model for up to 42.25s of the 42.25s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 </pre>
 </div>
 </div>
@@ -9982,15 +9918,15 @@ Fitting model: LightGBMLarge ... Training model for up to 51.78s of the 51.78s o
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-33.3333	 = Validation score   (-root_mean_squared_error)
-	2.72s	 = Training   runtime
-	0.14s	 = Validation runtime
-Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 48.29s of remaining time.
+	2.73s	 = Training   runtime
+	0.13s	 = Validation runtime
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 38.71s of remaining time.
 	Ensemble Weights: {'LightGBMLarge': 0.458, 'NeuralNetTorch': 0.25, 'XGBoost': 0.167, 'CatBoost': 0.083, 'LightGBM': 0.042}
 	-32.0184	 = Validation score   (-root_mean_squared_error)
-	0.01s	 = Training   runtime
+	0.02s	 = Training   runtime
 	0.0s	 = Validation runtime
-AutoGluon training complete, total runtime = 552.12s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 2640.5 rows/s (1089 batch size)
-TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_133230")
+AutoGluon training complete, total runtime = 561.7s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 2536.4 rows/s (1089 batch size)
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_085713")
 </pre>
 </div>
 </div>
@@ -10020,19 +9956,19 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/cu
 <pre>*** Summary of fit() ***
 Estimated performance of each model:
                  model  score_val              eval_metric  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
-0  WeightedEnsemble_L2 -32.018435  root_mean_squared_error       0.412428  515.848168                0.000464           0.014498            2       True         10
-1        LightGBMLarge -33.333302  root_mean_squared_error       0.144575    2.721117                0.144575           2.721117            1       True          9
-2             LightGBM -35.130899  root_mean_squared_error       0.113328    1.602690                0.113328           1.602690            1       True          2
-3             CatBoost -35.210942  root_mean_squared_error       0.028520  180.873294                0.028520         180.873294            1       True          4
-4              XGBoost -35.246729  root_mean_squared_error       0.109771    3.236855                0.109771           3.236855            1       True          7
-5           LightGBMXT -35.712042  root_mean_squared_error       0.700721    6.799814                0.700721           6.799814            1       True          1
-6       NeuralNetTorch -37.816943  root_mean_squared_error       0.015769  327.399713                0.015769         327.399713            1       True          8
-7      RandomForestMSE -38.938954  root_mean_squared_error       0.076319    7.053796                0.076319           7.053796            1       True          3
-8        ExtraTreesMSE -39.998782  root_mean_squared_error       0.076281    3.245568                0.076281           3.245568            1       True          5
-9      NeuralNetFastAI -45.859327  root_mean_squared_error       0.034377   13.790751                0.034377          13.790751            1       True          6
+0  WeightedEnsemble_L2 -32.018435  root_mean_squared_error       0.429355  526.197121                0.001921           0.016387            2       True         10
+1        LightGBMLarge -33.333302  root_mean_squared_error       0.134719    2.729219                0.134719           2.729219            1       True          9
+2             LightGBM -35.130899  root_mean_squared_error       0.117636    1.619927                0.117636           1.619927            1       True          2
+3             CatBoost -35.210942  root_mean_squared_error       0.023457  183.117502                0.023457         183.117502            1       True          4
+4              XGBoost -35.246729  root_mean_squared_error       0.136352    3.226965                0.136352           3.226965            1       True          7
+5           LightGBMXT -35.712042  root_mean_squared_error       0.762701    6.936681                0.762701           6.936681            1       True          1
+6       NeuralNetTorch -37.816943  root_mean_squared_error       0.015268  335.487120                0.015268         335.487120            1       True          8
+7      RandomForestMSE -38.858807  root_mean_squared_error       0.121645    7.950780                0.121645           7.950780            1       True          3
+8        ExtraTreesMSE -40.138197  root_mean_squared_error       0.079000    3.345538                0.079000           3.345538            1       True          5
+9      NeuralNetFastAI -45.859327  root_mean_squared_error       0.032435   11.659600                0.032435          11.659600            1       True          6
 Number of models trained: 10
 Types of models trained:
-{'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'NNFastAiTabularModel', 'LGBModel', 'TabularNeuralNetTorchModel', 'CatBoostModel', 'RFModel'}
+{'XTModel', 'WeightedEnsembleModel', 'XGBoostModel', 'LGBModel', 'TabularNeuralNetTorchModel', 'CatBoostModel', 'RFModel', 'NNFastAiTabularModel'}
 Bagging used: False 
 Multi-layer stack-ensembling used: False 
 Feature Metadata (Processed):
@@ -10042,7 +9978,7 @@ Feature Metadata (Processed):
 ('int', [])                  : 2 | ['humidity', 'hour']
 ('int', ['bool'])            : 2 | ['holiday', 'workingday']
 ('int', ['datetime_as_int']) : 5 | ['datetime', 'datetime.year', 'datetime.month', 'datetime.day', 'datetime.dayofweek']
-Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_133230/SummaryOfModels.html
+Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_085713/SummaryOfModels.html
 *** End of fit() summary ***
 </pre>
 </div>
@@ -10062,9 +9998,9 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
   'WeightedEnsemble_L2': 'WeightedEnsembleModel'},
  'model_performance': {'LightGBMXT': -35.712041801962215,
   'LightGBM': -35.13089877167801,
-  'RandomForestMSE': -38.938953547561525,
+  'RandomForestMSE': -38.85880693170123,
   'CatBoost': -35.21094228573219,
-  'ExtraTreesMSE': -39.9987820218152,
+  'ExtraTreesMSE': -40.138196925580864,
   'NeuralNetFastAI': -45.85932707058937,
   'XGBoost': -35.24672900170408,
   'NeuralNetTorch': -37.81694344823335,
@@ -10081,26 +10017,26 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
   'NeuralNetTorch': ['NeuralNetTorch'],
   'LightGBMLarge': ['LightGBMLarge'],
   'WeightedEnsemble_L2': ['WeightedEnsemble_L2']},
- 'model_fit_times': {'LightGBMXT': 6.799813985824585,
-  'LightGBM': 1.6026904582977295,
-  'RandomForestMSE': 7.053796291351318,
-  'CatBoost': 180.8732943534851,
-  'ExtraTreesMSE': 3.245567798614502,
-  'NeuralNetFastAI': 13.790750741958618,
-  'XGBoost': 3.2368545532226562,
-  'NeuralNetTorch': 327.3997128009796,
-  'LightGBMLarge': 2.7211172580718994,
-  'WeightedEnsemble_L2': 0.014498472213745117},
- 'model_pred_times': {'LightGBMXT': 0.700721025466919,
-  'LightGBM': 0.11332845687866211,
-  'RandomForestMSE': 0.07631921768188477,
-  'CatBoost': 0.02852010726928711,
-  'ExtraTreesMSE': 0.07628059387207031,
-  'NeuralNetFastAI': 0.034377098083496094,
-  'XGBoost': 0.1097714900970459,
-  'NeuralNetTorch': 0.01576852798461914,
-  'LightGBMLarge': 0.1445753574371338,
-  'WeightedEnsemble_L2': 0.0004639625549316406},
+ 'model_fit_times': {'LightGBMXT': 6.936680555343628,
+  'LightGBM': 1.619926929473877,
+  'RandomForestMSE': 7.950780391693115,
+  'CatBoost': 183.11750197410583,
+  'ExtraTreesMSE': 3.3455376625061035,
+  'NeuralNetFastAI': 11.659600496292114,
+  'XGBoost': 3.2269654273986816,
+  'NeuralNetTorch': 335.4871201515198,
+  'LightGBMLarge': 2.7292189598083496,
+  'WeightedEnsemble_L2': 0.016387224197387695},
+ 'model_pred_times': {'LightGBMXT': 0.7627007961273193,
+  'LightGBM': 0.11763620376586914,
+  'RandomForestMSE': 0.12164545059204102,
+  'CatBoost': 0.02345728874206543,
+  'ExtraTreesMSE': 0.07899975776672363,
+  'NeuralNetFastAI': 0.032434701919555664,
+  'XGBoost': 0.1363523006439209,
+  'NeuralNetTorch': 0.015268325805664062,
+  'LightGBMLarge': 0.1347191333770752,
+  'WeightedEnsemble_L2': 0.0019214153289794922},
  'num_bag_folds': 0,
  'max_stack_level': 2,
  'model_hyperparams': {'LightGBMXT': {'learning_rate': 0.05,
@@ -10173,28 +10109,28 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
    'bin': 'auto',
    'n_bins': None}},
  'leaderboard':                  model  score_val              eval_metric  pred_time_val  \
- 0  WeightedEnsemble_L2 -32.018435  root_mean_squared_error       0.412428   
- 1        LightGBMLarge -33.333302  root_mean_squared_error       0.144575   
- 2             LightGBM -35.130899  root_mean_squared_error       0.113328   
- 3             CatBoost -35.210942  root_mean_squared_error       0.028520   
- 4              XGBoost -35.246729  root_mean_squared_error       0.109771   
- 5           LightGBMXT -35.712042  root_mean_squared_error       0.700721   
- 6       NeuralNetTorch -37.816943  root_mean_squared_error       0.015769   
- 7      RandomForestMSE -38.938954  root_mean_squared_error       0.076319   
- 8        ExtraTreesMSE -39.998782  root_mean_squared_error       0.076281   
- 9      NeuralNetFastAI -45.859327  root_mean_squared_error       0.034377   
+ 0  WeightedEnsemble_L2 -32.018435  root_mean_squared_error       0.429355   
+ 1        LightGBMLarge -33.333302  root_mean_squared_error       0.134719   
+ 2             LightGBM -35.130899  root_mean_squared_error       0.117636   
+ 3             CatBoost -35.210942  root_mean_squared_error       0.023457   
+ 4              XGBoost -35.246729  root_mean_squared_error       0.136352   
+ 5           LightGBMXT -35.712042  root_mean_squared_error       0.762701   
+ 6       NeuralNetTorch -37.816943  root_mean_squared_error       0.015268   
+ 7      RandomForestMSE -38.858807  root_mean_squared_error       0.121645   
+ 8        ExtraTreesMSE -40.138197  root_mean_squared_error       0.079000   
+ 9      NeuralNetFastAI -45.859327  root_mean_squared_error       0.032435   
  
       fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  \
- 0  515.848168                0.000464           0.014498            2   
- 1    2.721117                0.144575           2.721117            1   
- 2    1.602690                0.113328           1.602690            1   
- 3  180.873294                0.028520         180.873294            1   
- 4    3.236855                0.109771           3.236855            1   
- 5    6.799814                0.700721           6.799814            1   
- 6  327.399713                0.015769         327.399713            1   
- 7    7.053796                0.076319           7.053796            1   
- 8    3.245568                0.076281           3.245568            1   
- 9   13.790751                0.034377          13.790751            1   
+ 0  526.197121                0.001921           0.016387            2   
+ 1    2.729219                0.134719           2.729219            1   
+ 2    1.619927                0.117636           1.619927            1   
+ 3  183.117502                0.023457         183.117502            1   
+ 4    3.226965                0.136352           3.226965            1   
+ 5    6.936681                0.762701           6.936681            1   
+ 6  335.487120                0.015268         335.487120            1   
+ 7    7.950780                0.121645           7.950780            1   
+ 8    3.345538                0.079000           3.345538            1   
+ 9   11.659600                0.032435          11.659600            1   
  
     can_infer  fit_order  
  0       True         10  
@@ -10240,7 +10176,7 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260101_134328"
+<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260102_090638"
 Verbosity: 2 (Standard Logging)
 =================== System Info ===================
 AutoGluon Version:  1.4.0
@@ -10249,13 +10185,13 @@ Operating System:   Linux
 Platform Machine:   x86_64
 Platform Version:   #1 SMP PREEMPT_DYNAMIC Mon Dec  1 05:36:50 UTC 2025
 CPU Count:          2
-Memory Avail:       0.64 GB / 3.75 GB (17.1%)
-Disk Space Avail:   8589934587.89 GB / 8589934592.00 GB (100.0%)
+Memory Avail:       0.70 GB / 3.75 GB (18.7%)
+Disk Space Avail:   8589934586.83 GB / 8589934592.00 GB (100.0%)
 ===================================================
 Presets specified: ['medium_quality']
 Using hyperparameters preset: hyperparameters='default'
 Beginning AutoGluon training ... Time limit = 600s
-AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_134328"
+AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_090638"
 Train Data Rows:    10886
 Train Data Columns: 10
 Label Column:       count
@@ -10266,7 +10202,7 @@ Problem Type:       regression
 Preprocessing data ...
 Using Feature Generators to preprocess the data ...
 Fitting AutoMLPipelineFeatureGenerator...
-	Available Memory:                    655.95 MB
+	Available Memory:                    696.18 MB
 	Train Data (Original)  Memory Usage: 0.64 MB (0.1% of available memory)
 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
 	Stage 1 Generators:
@@ -10297,7 +10233,7 @@ Fitting AutoMLPipelineFeatureGenerator...
 	0.1s = Fit runtime
 	10 features in original data used to generate 14 features in processed data.
 	Train Data (Processed) Memory Usage: 0.83 MB (0.1% of available memory)
-Data preprocessing and feature engineering runtime = 0.17s ...
+Data preprocessing and feature engineering runtime = 0.18s ...
 AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
 	To change this, specify the eval_metric parameter of Predictor()
@@ -10313,8 +10249,8 @@ User-specified model hyperparameters to be fit:
 	'XT': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression', 'quantile']}}],
 }
 Fitting 9 L1 models, fit_strategy="sequential" ...
-Fitting model: LightGBMXT ... Training model for up to 599.83s of the 599.83s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
+Fitting model: LightGBMXT ... Training model for up to 599.82s of the 599.81s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 </pre>
 </div>
 </div>
@@ -10334,10 +10270,10 @@ Fitting model: LightGBMXT ... Training model for up to 599.83s of the 599.83s of
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-35.712	 = Validation score   (-root_mean_squared_error)
-	7.15s	 = Training   runtime
-	0.83s	 = Validation runtime
-Fitting model: LightGBM ... Training model for up to 590.87s of the 590.87s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
+	6.82s	 = Training   runtime
+	0.73s	 = Validation runtime
+Fitting model: LightGBM ... Training model for up to 591.37s of the 591.36s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 </pre>
 </div>
 </div>
@@ -10352,44 +10288,44 @@ Fitting model: LightGBM ... Training model for up to 590.87s of the 590.87s of r
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-35.1309	 = Validation score   (-root_mean_squared_error)
-	1.65s	 = Training   runtime
+	1.61s	 = Training   runtime
 	0.12s	 = Validation runtime
-Fitting model: RandomForestMSE ... Training model for up to 588.82s of the 588.82s of remaining time.
+Fitting model: RandomForestMSE ... Training model for up to 589.36s of the 589.35s of remaining time.
 	Fitting with cpus=2, gpus=0
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 125 due to low memory. Expected memory usage reduced from 35.98% -&gt; 15.0% of available memory...
-	-38.866	 = Validation score   (-root_mean_squared_error)
-	6.34s	 = Training   runtime
-	0.09s	 = Validation runtime
-Fitting model: CatBoost ... Training model for up to 581.94s of the 581.94s of remaining time.
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 135 due to low memory. Expected memory usage reduced from 33.09% -&gt; 15.0% of available memory...
+	-38.8832	 = Validation score   (-root_mean_squared_error)
+	6.74s	 = Training   runtime
+	0.08s	 = Validation runtime
+Fitting model: CatBoost ... Training model for up to 582.10s of the 582.10s of remaining time.
 	Fitting with cpus=1, gpus=0
 	-35.2109	 = Validation score   (-root_mean_squared_error)
-	182.34s	 = Training   runtime
-	0.02s	 = Validation runtime
-Fitting model: ExtraTreesMSE ... Training model for up to 399.29s of the 399.29s of remaining time.
-	Fitting with cpus=2, gpus=0
-	Warning: Reducing model 'n_estimators' from 300 -&gt; 116 due to low memory. Expected memory usage reduced from 38.59% -&gt; 15.0% of available memory...
-	-40.0874	 = Validation score   (-root_mean_squared_error)
-	2.92s	 = Training   runtime
-	0.07s	 = Validation runtime
-Fitting model: NeuralNetFastAI ... Training model for up to 395.86s of the 395.85s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
-	-45.8593	 = Validation score   (-root_mean_squared_error)
-	12.26s	 = Training   runtime
+	189.63s	 = Training   runtime
 	0.03s	 = Validation runtime
-Fitting model: XGBoost ... Training model for up to 383.43s of the 383.43s of remaining time.
+Fitting model: ExtraTreesMSE ... Training model for up to 392.16s of the 392.16s of remaining time.
+	Fitting with cpus=2, gpus=0
+	Warning: Reducing model 'n_estimators' from 300 -&gt; 124 due to low memory. Expected memory usage reduced from 36.03% -&gt; 15.0% of available memory...
+	-40.0278	 = Validation score   (-root_mean_squared_error)
+	3.08s	 = Training   runtime
+	0.09s	 = Validation runtime
+Fitting model: NeuralNetFastAI ... Training model for up to 388.54s of the 388.54s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
+	-45.8593	 = Validation score   (-root_mean_squared_error)
+	11.69s	 = Training   runtime
+	0.03s	 = Validation runtime
+Fitting model: XGBoost ... Training model for up to 376.68s of the 376.67s of remaining time.
 	Fitting with cpus=1, gpus=0
 	-35.2467	 = Validation score   (-root_mean_squared_error)
-	3.17s	 = Training   runtime
+	3.26s	 = Training   runtime
 	0.12s	 = Validation runtime
-Fitting model: NeuralNetTorch ... Training model for up to 379.93s of the 379.93s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
+Fitting model: NeuralNetTorch ... Training model for up to 373.10s of the 373.10s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 /opt/conda/lib/python3.12/site-packages/sklearn/compose/_column_transformer.py:975: FutureWarning: The parameter `force_int_remainder_cols` is deprecated and will be removed in 1.9. It has no effect. Leave it to its default value to avoid this warning.
   warnings.warn(
 	-37.8169	 = Validation score   (-root_mean_squared_error)
-	331.92s	 = Training   runtime
+	328.47s	 = Training   runtime
 	0.01s	 = Validation runtime
-Fitting model: LightGBMLarge ... Training model for up to 47.85s of the 47.85s of remaining time.
-	Fitting with cpus=1, gpus=0, mem=0.0/0.6 GB
+Fitting model: LightGBMLarge ... Training model for up to 44.51s of the 44.51s of remaining time.
+	Fitting with cpus=1, gpus=0, mem=0.0/0.7 GB
 </pre>
 </div>
 </div>
@@ -10404,15 +10340,15 @@ Fitting model: LightGBMLarge ... Training model for up to 47.85s of the 47.85s o
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>	-33.3333	 = Validation score   (-root_mean_squared_error)
-	2.73s	 = Training   runtime
+	2.72s	 = Training   runtime
 	0.14s	 = Validation runtime
-Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 44.34s of remaining time.
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 40.99s of remaining time.
 	Ensemble Weights: {'LightGBMLarge': 0.458, 'NeuralNetTorch': 0.25, 'XGBoost': 0.167, 'CatBoost': 0.083, 'LightGBM': 0.042}
 	-32.0184	 = Validation score   (-root_mean_squared_error)
 	0.02s	 = Training   runtime
 	0.0s	 = Validation runtime
-AutoGluon training complete, total runtime = 556.05s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 2612.0 rows/s (1089 batch size)
-TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_134328")
+AutoGluon training complete, total runtime = 559.38s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 2581.8 rows/s (1089 batch size)
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_090638")
 </pre>
 </div>
 </div>
@@ -10466,7 +10402,7 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/cu
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 727kB/s]
+<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 514kB/s]
 Successfully submitted to Bike Sharing Demand</pre>
 </div>
 </div>
@@ -10576,7 +10512,7 @@ TypeError: KaggleApi.competition_submissions() got an unexpected keyword argumen
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260101_135915"
+<pre>No path specified. Models will be saved in: "AutogluonModels/ag-20260102_091820"
 Verbosity: 2 (Standard Logging)
 =================== System Info ===================
 AutoGluon Version:  1.4.0
@@ -10585,13 +10521,13 @@ Operating System:   Linux
 Platform Machine:   x86_64
 Platform Version:   #1 SMP PREEMPT_DYNAMIC Mon Dec  1 05:36:50 UTC 2025
 CPU Count:          2
-Memory Avail:       0.59 GB / 3.75 GB (15.7%)
-Disk Space Avail:   8589934587.89 GB / 8589934592.00 GB (100.0%)
+Memory Avail:       0.70 GB / 3.75 GB (18.6%)
+Disk Space Avail:   8589934586.83 GB / 8589934592.00 GB (100.0%)
 ===================================================
 Presets specified: ['medium_quality']
 Warning: hyperparameter tuning is currently experimental and may cause the process to hang.
 Beginning AutoGluon training ... Time limit = 600s
-AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_135915"
+AutoGluon will save models to "/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_091820"
 Train Data Rows:    10886
 Train Data Columns: 10
 Label Column:       count
@@ -10602,7 +10538,7 @@ Problem Type:       regression
 Preprocessing data ...
 Using Feature Generators to preprocess the data ...
 Fitting AutoMLPipelineFeatureGenerator...
-	Available Memory:                    603.59 MB
+	Available Memory:                    714.19 MB
 	Train Data (Original)  Memory Usage: 0.64 MB (0.1% of available memory)
 	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
 	Stage 1 Generators:
@@ -10633,7 +10569,7 @@ Fitting AutoMLPipelineFeatureGenerator...
 	0.1s = Fit runtime
 	10 features in original data used to generate 14 features in processed data.
 	Train Data (Processed) Memory Usage: 0.83 MB (0.1% of available memory)
-Data preprocessing and feature engineering runtime = 0.17s ...
+Data preprocessing and feature engineering runtime = 0.13s ...
 AutoGluon will gauge predictive performance using evaluation metric: 'root_mean_squared_error'
 	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
 	To change this, specify the eval_metric parameter of Predictor()
@@ -10643,7 +10579,7 @@ User-specified model hyperparameters to be fit:
 	'GBM': [{}],
 }
 Fitting 1 L1 models, fit_strategy="sequential" ...
-Hyperparameter tuning model: LightGBM ... Tuning model for up to 539.85s of the 599.83s of remaining time.
+Hyperparameter tuning model: LightGBM ... Tuning model for up to 539.88s of the 599.87s of remaining time.
 </pre>
 </div>
 </div>
@@ -10671,31 +10607,31 @@ Hyperparameter tuning model: LightGBM ... Tuning model for up to 539.85s of the 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>Fitted model: LightGBM/T1 ...
 	-36.589	 = Validation score   (-root_mean_squared_error)
-	2.32s	 = Training   runtime
-	0.35s	 = Validation runtime
+	2.21s	 = Training   runtime
+	0.39s	 = Validation runtime
 Fitted model: LightGBM/T2 ...
 	-36.084	 = Validation score   (-root_mean_squared_error)
-	1.75s	 = Training   runtime
+	1.69s	 = Training   runtime
 	0.15s	 = Validation runtime
 Fitted model: LightGBM/T3 ...
 	-36.6563	 = Validation score   (-root_mean_squared_error)
-	1.94s	 = Training   runtime
-	0.28s	 = Validation runtime
+	1.97s	 = Training   runtime
+	0.3s	 = Validation runtime
 Fitted model: LightGBM/T4 ...
 	-35.8129	 = Validation score   (-root_mean_squared_error)
-	8.78s	 = Training   runtime
-	1.68s	 = Validation runtime
+	8.82s	 = Training   runtime
+	1.99s	 = Validation runtime
 Fitted model: LightGBM/T5 ...
 	-36.3476	 = Validation score   (-root_mean_squared_error)
-	1.4s	 = Training   runtime
-	0.08s	 = Validation runtime
-Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 574.83s of remaining time.
+	1.28s	 = Training   runtime
+	0.09s	 = Validation runtime
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.00s of the 574.59s of remaining time.
 	Ensemble Weights: {'LightGBM/T4': 0.583, 'LightGBM/T2': 0.417}
 	-35.5387	 = Validation score   (-root_mean_squared_error)
 	0.01s	 = Training   runtime
 	0.0s	 = Validation runtime
-AutoGluon training complete, total runtime = 25.56s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 1189.9 rows/s (2178 batch size)
-TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_135915")
+AutoGluon training complete, total runtime = 25.77s ... Best model: WeightedEnsemble_L2 | Estimated inference throughput: 1013.2 rows/s (2178 batch size)
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_091820")
 </pre>
 </div>
 </div>
@@ -10725,12 +10661,12 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load("/mnt/cu
 <pre>*** Summary of fit() ***
 Estimated performance of each model:
                  model  score_val              eval_metric  pred_time_val   fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
-0  WeightedEnsemble_L2 -35.538717  root_mean_squared_error       1.830370  10.532512                0.000484           0.009057            2       True          6
-1          LightGBM/T4 -35.812896  root_mean_squared_error       1.677322   8.775802                1.677322           8.775802            1       True          4
-2          LightGBM/T2 -36.084042  root_mean_squared_error       0.152564   1.747653                0.152564           1.747653            1       True          2
-3          LightGBM/T5 -36.347558  root_mean_squared_error       0.082568   1.402071                0.082568           1.402071            1       True          5
-4          LightGBM/T1 -36.588983  root_mean_squared_error       0.352445   2.322974                0.352445           2.322974            1       True          1
-5          LightGBM/T3 -36.656260  root_mean_squared_error       0.278961   1.942245                0.278961           1.942245            1       True          3
+0  WeightedEnsemble_L2 -35.538717  root_mean_squared_error       2.149609  10.522358                0.000458           0.007618            2       True          6
+1          LightGBM/T4 -35.812896  root_mean_squared_error       1.994267   8.821995                1.994267           8.821995            1       True          4
+2          LightGBM/T2 -36.084042  root_mean_squared_error       0.154884   1.692745                0.154884           1.692745            1       True          2
+3          LightGBM/T5 -36.347558  root_mean_squared_error       0.089178   1.278634                0.089178           1.278634            1       True          5
+4          LightGBM/T1 -36.588983  root_mean_squared_error       0.390155   2.206336                0.390155           2.206336            1       True          1
+5          LightGBM/T3 -36.656260  root_mean_squared_error       0.302363   1.967760                0.302363           1.967760            1       True          3
 Number of models trained: 6
 Types of models trained:
 {'WeightedEnsembleModel', 'LGBModel'}
@@ -10743,7 +10679,7 @@ Feature Metadata (Processed):
 ('int', [])                  : 2 | ['humidity', 'hour']
 ('int', ['bool'])            : 2 | ['holiday', 'workingday']
 ('int', ['datetime_as_int']) : 5 | ['datetime', 'datetime.year', 'datetime.month', 'datetime.day', 'datetime.dayofweek']
-Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260101_135915/SummaryOfModels.html
+Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2ef0d56b_fsap-0799c942717815f53/nd009t-c1-intro-to-ml-project-starter/AutogluonModels/ag-20260102_091820/SummaryOfModels.html
 *** End of fit() summary ***
 </pre>
 </div>
@@ -10770,18 +10706,18 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
   'LightGBM/T4': ['LightGBM', 'T4'],
   'LightGBM/T5': ['LightGBM', 'T5'],
   'WeightedEnsemble_L2': ['WeightedEnsemble_L2']},
- 'model_fit_times': {'LightGBM/T1': 2.3229737281799316,
-  'LightGBM/T2': 1.7476527690887451,
-  'LightGBM/T3': 1.9422452449798584,
-  'LightGBM/T4': 8.77580213546753,
-  'LightGBM/T5': 1.402071237564087,
-  'WeightedEnsemble_L2': 0.009057044982910156},
- 'model_pred_times': {'LightGBM/T1': 0.352445125579834,
-  'LightGBM/T2': 0.15256381034851074,
-  'LightGBM/T3': 0.2789607048034668,
-  'LightGBM/T4': 1.6773221492767334,
-  'LightGBM/T5': 0.08256840705871582,
-  'WeightedEnsemble_L2': 0.0004839897155761719},
+ 'model_fit_times': {'LightGBM/T1': 2.2063355445861816,
+  'LightGBM/T2': 1.6927447319030762,
+  'LightGBM/T3': 1.9677600860595703,
+  'LightGBM/T4': 8.82199501991272,
+  'LightGBM/T5': 1.2786340713500977,
+  'WeightedEnsemble_L2': 0.007618427276611328},
+ 'model_pred_times': {'LightGBM/T1': 0.3901548385620117,
+  'LightGBM/T2': 0.15488362312316895,
+  'LightGBM/T3': 0.30236339569091797,
+  'LightGBM/T4': 1.9942669868469238,
+  'LightGBM/T5': 0.08917784690856934,
+  'WeightedEnsemble_L2': 0.0004582405090332031},
  'num_bag_folds': 0,
  'max_stack_level': 2,
  'model_hyperparams': {'LightGBM/T1': {'learning_rate': 0.05,
@@ -10813,20 +10749,20 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
    'bin': 'auto',
    'n_bins': None}},
  'leaderboard':                  model  score_val              eval_metric  pred_time_val  \
- 0  WeightedEnsemble_L2 -35.538717  root_mean_squared_error       1.830370   
- 1          LightGBM/T4 -35.812896  root_mean_squared_error       1.677322   
- 2          LightGBM/T2 -36.084042  root_mean_squared_error       0.152564   
- 3          LightGBM/T5 -36.347558  root_mean_squared_error       0.082568   
- 4          LightGBM/T1 -36.588983  root_mean_squared_error       0.352445   
- 5          LightGBM/T3 -36.656260  root_mean_squared_error       0.278961   
+ 0  WeightedEnsemble_L2 -35.538717  root_mean_squared_error       2.149609   
+ 1          LightGBM/T4 -35.812896  root_mean_squared_error       1.994267   
+ 2          LightGBM/T2 -36.084042  root_mean_squared_error       0.154884   
+ 3          LightGBM/T5 -36.347558  root_mean_squared_error       0.089178   
+ 4          LightGBM/T1 -36.588983  root_mean_squared_error       0.390155   
+ 5          LightGBM/T3 -36.656260  root_mean_squared_error       0.302363   
  
      fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  \
- 0  10.532512                0.000484           0.009057            2   
- 1   8.775802                1.677322           8.775802            1   
- 2   1.747653                0.152564           1.747653            1   
- 3   1.402071                0.082568           1.402071            1   
- 4   2.322974                0.352445           2.322974            1   
- 5   1.942245                0.278961           1.942245            1   
+ 0  10.522358                0.000458           0.007618            2   
+ 1   8.821995                1.994267           8.821995            1   
+ 2   1.692745                0.154884           1.692745            1   
+ 3   1.278634                0.089178           1.278634            1   
+ 4   2.206336                0.390155           2.206336            1   
+ 5   1.967760                0.302363           1.967760            1   
  
     can_infer  fit_order  
  0       True          6  
@@ -10899,7 +10835,7 @@ Plot summary of models saved to file: /mnt/custom-file-systems/efs/fs-06f12cf7f2
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 696kB/s]
+<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 652kB/s]
 Successfully submitted to Bike Sharing Demand</pre>
 </div>
 </div>
